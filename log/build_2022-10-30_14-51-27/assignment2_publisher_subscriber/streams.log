@@ -1,0 +1,40 @@
+[0.540s] Invoking command in '/home/majd/Documents/Robotik/ros2_ws/src/assignment2_publisher_subscriber': PYTHONPATH=/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/assignment2_publisher_subscriber build --build-base /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber/build install --prefix /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber --record /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber/install.log --single-version-externally-managed
+[0.755s] running egg_info
+[0.755s] creating ../../build/assignment2_publisher_subscriber/assignment2_publisher_subscriber.egg-info
+[0.755s] writing ../../build/assignment2_publisher_subscriber/assignment2_publisher_subscriber.egg-info/PKG-INFO
+[0.755s] writing dependency_links to ../../build/assignment2_publisher_subscriber/assignment2_publisher_subscriber.egg-info/dependency_links.txt
+[0.756s] writing entry points to ../../build/assignment2_publisher_subscriber/assignment2_publisher_subscriber.egg-info/entry_points.txt
+[0.756s] writing requirements to ../../build/assignment2_publisher_subscriber/assignment2_publisher_subscriber.egg-info/requires.txt
+[0.756s] writing top-level names to ../../build/assignment2_publisher_subscriber/assignment2_publisher_subscriber.egg-info/top_level.txt
+[0.756s] writing manifest file '../../build/assignment2_publisher_subscriber/assignment2_publisher_subscriber.egg-info/SOURCES.txt'
+[0.757s] reading manifest file '../../build/assignment2_publisher_subscriber/assignment2_publisher_subscriber.egg-info/SOURCES.txt'
+[0.758s] writing manifest file '../../build/assignment2_publisher_subscriber/assignment2_publisher_subscriber.egg-info/SOURCES.txt'
+[0.758s] running build
+[0.758s] running build_py
+[0.758s] creating /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber/build
+[0.758s] creating /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber/build/lib
+[0.759s] creating /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber/build/lib/assignment2_publisher_subscriber
+[0.759s] copying assignment2_publisher_subscriber/publisher.py -> /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber/build/lib/assignment2_publisher_subscriber
+[0.759s] copying assignment2_publisher_subscriber/subscriber.py -> /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber/build/lib/assignment2_publisher_subscriber
+[0.759s] copying assignment2_publisher_subscriber/__init__.py -> /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber/build/lib/assignment2_publisher_subscriber
+[0.759s] running install
+[0.759s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.759s]   warnings.warn(
+[0.759s] running install_lib
+[0.760s] creating /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages/assignment2_publisher_subscriber
+[0.760s] copying /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber/build/lib/assignment2_publisher_subscriber/publisher.py -> /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages/assignment2_publisher_subscriber
+[0.760s] copying /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber/build/lib/assignment2_publisher_subscriber/subscriber.py -> /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages/assignment2_publisher_subscriber
+[0.760s] copying /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber/build/lib/assignment2_publisher_subscriber/__init__.py -> /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages/assignment2_publisher_subscriber
+[0.760s] byte-compiling /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages/assignment2_publisher_subscriber/publisher.py to publisher.cpython-310.pyc
+[0.761s] byte-compiling /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages/assignment2_publisher_subscriber/subscriber.py to subscriber.cpython-310.pyc
+[0.761s] byte-compiling /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages/assignment2_publisher_subscriber/__init__.py to __init__.cpython-310.pyc
+[0.761s] running install_data
+[0.766s] copying resource/assignment2_publisher_subscriber -> /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/share/ament_index/resource_index/packages
+[0.766s] copying package.xml -> /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/share/assignment2_publisher_subscriber
+[0.766s] running install_egg_info
+[0.767s] Copying ../../build/assignment2_publisher_subscriber/assignment2_publisher_subscriber.egg-info to /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages/assignment2_publisher_subscriber-0.0.0-py3.10.egg-info
+[0.768s] running install_scripts
+[0.786s] Installing currentSpeed script to /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/assignment2_publisher_subscriber
+[0.786s] Installing drive script to /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/assignment2_publisher_subscriber
+[0.786s] writing list of installed files to '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber/install.log'
+[0.807s] Invoked command in '/home/majd/Documents/Robotik/ros2_ws/src/assignment2_publisher_subscriber' returned '0': PYTHONPATH=/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/assignment2_publisher_subscriber build --build-base /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber/build install --prefix /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber --record /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber/install.log --single-version-externally-managed

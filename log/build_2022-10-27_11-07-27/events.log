@@ -1,0 +1,923 @@
+[0.000000] (-) TimerEvent: {}
+[0.001364] (assignment2_publisher_subscriber) JobQueued: {'identifier': 'assignment2_publisher_subscriber', 'dependencies': OrderedDict()}
+[0.001684] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001732] (assignment2_publisher_subscriber) JobStarted: {'identifier': 'assignment2_publisher_subscriber'}
+[0.010554] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.019283] (assignment2_publisher_subscriber) JobProgress: {'identifier': 'assignment2_publisher_subscriber', 'progress': 'cmake'}
+[0.019522] (assignment2_publisher_subscriber) Command: {'cmd': ['/usr/bin/cmake', '/home/majd/Documents/Robotik/ros2_ws/src/assignment2_publisher_subscriber', '-DCMAKE_INSTALL_PREFIX=/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber'], 'cwd': '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'majd'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/sim_car_controller/lib:/home/majd/autominy/catkin_ws/install/serial/lib:/home/majd/autominy/catkin_ws/install/road_marking_localization/lib:/home/majd/autominy/catkin_ws/install/remote_control/lib:/home/majd/autominy/catkin_ws/install/odometry/lib:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/lib:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/hardware_calibration/lib:/home/majd/autominy/catkin_ws/install/emergency_stop/lib:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/lib:/home/majd/autominy/catkin_ws/install/autominy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/majd'), ('OLDPWD', '/home/majd/Documents/Robotik/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '1820'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'majd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'majd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/arduino_communication/bin:/home/majd/autominy/catkin_ws/install/road_marking_localization/bin:/home/majd/autominy/catkin_ws/install/remote_control/bin:/home/majd/autominy/catkin_ws/install/odometry/bin:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/bin:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/hardware_calibration/bin:/home/majd/autominy/catkin_ws/install/emergency_stop/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/majd-HP-ProBook-440-G5:@/tmp/.ICE-unix/1766,unix/majd-HP-ProBook-440-G5:/tmp/.ICE-unix/1766'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/12d2df6f_bad9_4eda_a884_a6a21dfaa6a0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YFEEU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '27'), ('AMENT_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/local/lib/python3.10/dist-packages:/home/majd/autominy/catkin_ws/install/autominy_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/opt/ros/humble')]), 'shell': False}
+[0.024051] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.024788] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/home/majd/Documents/Robotik/ros2_ws/src/ros_tutorials/turtlesim', '-DCMAKE_INSTALL_PREFIX=/home/majd/Documents/Robotik/ros2_ws/install/turtlesim'], 'cwd': '/home/majd/Documents/Robotik/ros2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'majd'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/sim_car_controller/lib:/home/majd/autominy/catkin_ws/install/serial/lib:/home/majd/autominy/catkin_ws/install/road_marking_localization/lib:/home/majd/autominy/catkin_ws/install/remote_control/lib:/home/majd/autominy/catkin_ws/install/odometry/lib:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/lib:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/hardware_calibration/lib:/home/majd/autominy/catkin_ws/install/emergency_stop/lib:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/lib:/home/majd/autominy/catkin_ws/install/autominy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/majd'), ('OLDPWD', '/home/majd/Documents/Robotik/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '1820'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'majd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'majd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/arduino_communication/bin:/home/majd/autominy/catkin_ws/install/road_marking_localization/bin:/home/majd/autominy/catkin_ws/install/remote_control/bin:/home/majd/autominy/catkin_ws/install/odometry/bin:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/bin:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/hardware_calibration/bin:/home/majd/autominy/catkin_ws/install/emergency_stop/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/majd-HP-ProBook-440-G5:@/tmp/.ICE-unix/1766,unix/majd-HP-ProBook-440-G5:/tmp/.ICE-unix/1766'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/12d2df6f_bad9_4eda_a884_a6a21dfaa6a0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YFEEU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '27'), ('AMENT_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/majd/Documents/Robotik/ros2_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/local/lib/python3.10/dist-packages:/home/majd/autominy/catkin_ws/install/autominy_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/opt/ros/humble')]), 'shell': False}
+[0.090146] (turtlesim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.095093] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.099605] (-) TimerEvent: {}
+[0.157323] (turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.165422] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.166077] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.177050] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199704] (-) TimerEvent: {}
+[0.247515] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.259837] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.260384] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.260944] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.262783] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.266222] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.272395] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.272857] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.273529] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.278501] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299822] (-) TimerEvent: {}
+[0.371244] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.383942] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.384452] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.384781] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.385750] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.393009] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399275] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.399620] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.399884] (-) TimerEvent: {}
+[0.400345] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.407675] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500026] (-) TimerEvent: {}
+[0.600312] (-) TimerEvent: {}
+[0.607160] (turtlesim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.624034] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.700412] (-) TimerEvent: {}
+[0.738431] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[0.742486] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.760488] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.800525] (-) TimerEvent: {}
+[0.809033] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.817408] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.834953] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.860574] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.879844] (assignment2_publisher_subscriber) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.880115] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/majd/Documents/Robotik/ros2_ws/src/assignment2_publisher_subscriber/include>\n'}
+[0.880284] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.881817] (assignment2_publisher_subscriber) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.883943] (assignment2_publisher_subscriber) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.884109] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.885595] (assignment2_publisher_subscriber) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.890848] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.895255] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Generating done\n'}
+[0.896684] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Build files have been written to: /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber\n'}
+[0.900662] (-) TimerEvent: {}
+[0.902188] (assignment2_publisher_subscriber) CommandEnded: {'returncode': 0}
+[0.903163] (assignment2_publisher_subscriber) JobProgress: {'identifier': 'assignment2_publisher_subscriber', 'progress': 'build'}
+[0.906300] (assignment2_publisher_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber', '--', '-j8', '-l8'], 'cwd': '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'majd'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/sim_car_controller/lib:/home/majd/autominy/catkin_ws/install/serial/lib:/home/majd/autominy/catkin_ws/install/road_marking_localization/lib:/home/majd/autominy/catkin_ws/install/remote_control/lib:/home/majd/autominy/catkin_ws/install/odometry/lib:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/lib:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/hardware_calibration/lib:/home/majd/autominy/catkin_ws/install/emergency_stop/lib:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/lib:/home/majd/autominy/catkin_ws/install/autominy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/majd'), ('OLDPWD', '/home/majd/Documents/Robotik/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '1820'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'majd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'majd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/arduino_communication/bin:/home/majd/autominy/catkin_ws/install/road_marking_localization/bin:/home/majd/autominy/catkin_ws/install/remote_control/bin:/home/majd/autominy/catkin_ws/install/odometry/bin:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/bin:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/hardware_calibration/bin:/home/majd/autominy/catkin_ws/install/emergency_stop/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/majd-HP-ProBook-440-G5:@/tmp/.ICE-unix/1766,unix/majd-HP-ProBook-440-G5:/tmp/.ICE-unix/1766'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/12d2df6f_bad9_4eda_a884_a6a21dfaa6a0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YFEEU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '27'), ('AMENT_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/local/lib/python3.10/dist-packages:/home/majd/autominy/catkin_ws/install/autominy_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/opt/ros/humble')]), 'shell': False}
+[0.911467] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.977608] (assignment2_publisher_subscriber) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o\x1b[0m\n'}
+[1.000757] (-) TimerEvent: {}
+[1.015336] (assignment2_publisher_subscriber) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_node\x1b[0m\n'}
+[1.073673] (assignment2_publisher_subscriber) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[1.088234] (assignment2_publisher_subscriber) CommandEnded: {'returncode': 0}
+[1.100923] (-) TimerEvent: {}
+[1.110119] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.123119] (assignment2_publisher_subscriber) JobProgress: {'identifier': 'assignment2_publisher_subscriber', 'progress': 'install'}
+[1.136131] (assignment2_publisher_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber'], 'cwd': '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'majd'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/sim_car_controller/lib:/home/majd/autominy/catkin_ws/install/serial/lib:/home/majd/autominy/catkin_ws/install/road_marking_localization/lib:/home/majd/autominy/catkin_ws/install/remote_control/lib:/home/majd/autominy/catkin_ws/install/odometry/lib:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/lib:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/hardware_calibration/lib:/home/majd/autominy/catkin_ws/install/emergency_stop/lib:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/lib:/home/majd/autominy/catkin_ws/install/autominy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/majd'), ('OLDPWD', '/home/majd/Documents/Robotik/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '1820'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'majd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'majd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/arduino_communication/bin:/home/majd/autominy/catkin_ws/install/road_marking_localization/bin:/home/majd/autominy/catkin_ws/install/remote_control/bin:/home/majd/autominy/catkin_ws/install/odometry/bin:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/bin:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/hardware_calibration/bin:/home/majd/autominy/catkin_ws/install/emergency_stop/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/majd-HP-ProBook-440-G5:@/tmp/.ICE-unix/1766,unix/majd-HP-ProBook-440-G5:/tmp/.ICE-unix/1766'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/12d2df6f_bad9_4eda_a884_a6a21dfaa6a0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YFEEU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '27'), ('AMENT_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/local/lib/python3.10/dist-packages:/home/majd/autominy/catkin_ws/install/autominy_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/opt/ros/humble')]), 'shell': False}
+[1.144545] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.144796] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/assignment2_publisher_subscriber/my_node\n'}
+[1.144983] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/share/ament_index/resource_index/package_run_dependencies/assignment2_publisher_subscriber\n'}
+[1.145169] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/share/ament_index/resource_index/parent_prefix_path/assignment2_publisher_subscriber\n'}
+[1.145358] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/share/assignment2_publisher_subscriber/environment/ament_prefix_path.sh\n'}
+[1.145498] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/share/assignment2_publisher_subscriber/environment/ament_prefix_path.dsv\n'}
+[1.145603] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/share/assignment2_publisher_subscriber/environment/path.sh\n'}
+[1.145736] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/share/assignment2_publisher_subscriber/environment/path.dsv\n'}
+[1.145885] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/share/assignment2_publisher_subscriber/local_setup.bash\n'}
+[1.146026] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/share/assignment2_publisher_subscriber/local_setup.sh\n'}
+[1.146161] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/share/assignment2_publisher_subscriber/local_setup.zsh\n'}
+[1.146256] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/share/assignment2_publisher_subscriber/local_setup.dsv\n'}
+[1.146409] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/share/assignment2_publisher_subscriber/package.dsv\n'}
+[1.146601] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/share/ament_index/resource_index/packages/assignment2_publisher_subscriber\n'}
+[1.146817] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/share/assignment2_publisher_subscriber/cmake/assignment2_publisher_subscriberConfig.cmake\n'}
+[1.146931] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/share/assignment2_publisher_subscriber/cmake/assignment2_publisher_subscriberConfig-version.cmake\n'}
+[1.147048] (assignment2_publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/share/assignment2_publisher_subscriber/package.xml\n'}
+[1.148652] (assignment2_publisher_subscriber) CommandEnded: {'returncode': 0}
+[1.201019] (-) TimerEvent: {}
+[1.211666] (assignment2_publisher_subscriber) JobEnded: {'identifier': 'assignment2_publisher_subscriber', 'rc': 0}
+[1.212725] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.220019] (turtlesim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.301124] (-) TimerEvent: {}
+[1.356269] (turtlesim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.390521] (turtlesim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.401231] (-) TimerEvent: {}
+[1.445355] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.501347] (-) TimerEvent: {}
+[1.601685] (-) TimerEvent: {}
+[1.603242] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.1 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[1.701786] (-) TimerEvent: {}
+[1.730533] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.747870] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 4.2.2 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.801991] (-) TimerEvent: {}
+[1.902445] (-) TimerEvent: {}
+[2.002723] (-) TimerEvent: {}
+[2.103057] (-) TimerEvent: {}
+[2.124531] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.203180] (-) TimerEvent: {}
+[2.303468] (-) TimerEvent: {}
+[2.403799] (-) TimerEvent: {}
+[2.504067] (-) TimerEvent: {}
+[2.520177] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.604183] (-) TimerEvent: {}
+[2.657956] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.682759] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[2.686526] (turtlesim) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.704267] (-) TimerEvent: {}
+[2.714834] (turtlesim) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[2.715101] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.715262] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.715402] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.738091] (turtlesim) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.804373] (-) TimerEvent: {}
+[2.824070] (turtlesim) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.898659] (turtlesim) StdoutLine: {'line': b'-- Generating done\n'}
+[2.902949] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /home/majd/Documents/Robotik/ros2_ws/build/turtlesim\n'}
+[2.904432] (-) TimerEvent: {}
+[2.916347] (turtlesim) CommandEnded: {'returncode': 0}
+[2.917266] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[2.917694] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/majd/Documents/Robotik/ros2_ws/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/majd/Documents/Robotik/ros2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'majd'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/sim_car_controller/lib:/home/majd/autominy/catkin_ws/install/serial/lib:/home/majd/autominy/catkin_ws/install/road_marking_localization/lib:/home/majd/autominy/catkin_ws/install/remote_control/lib:/home/majd/autominy/catkin_ws/install/odometry/lib:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/lib:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/hardware_calibration/lib:/home/majd/autominy/catkin_ws/install/emergency_stop/lib:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/lib:/home/majd/autominy/catkin_ws/install/autominy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/majd'), ('OLDPWD', '/home/majd/Documents/Robotik/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '1820'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'majd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'majd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/arduino_communication/bin:/home/majd/autominy/catkin_ws/install/road_marking_localization/bin:/home/majd/autominy/catkin_ws/install/remote_control/bin:/home/majd/autominy/catkin_ws/install/odometry/bin:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/bin:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/hardware_calibration/bin:/home/majd/autominy/catkin_ws/install/emergency_stop/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/majd-HP-ProBook-440-G5:@/tmp/.ICE-unix/1766,unix/majd-HP-ProBook-440-G5:/tmp/.ICE-unix/1766'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/12d2df6f_bad9_4eda_a884_a6a21dfaa6a0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YFEEU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '27'), ('AMENT_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/majd/Documents/Robotik/ros2_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/local/lib/python3.10/dist-packages:/home/majd/autominy/catkin_ws/install/autominy_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/opt/ros/humble')]), 'shell': False}
+[2.968224] (turtlesim) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.979845] (turtlesim) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.989644] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_turtlesim\n'}
+[3.004541] (-) TimerEvent: {}
+[3.104796] (-) TimerEvent: {}
+[3.205098] (-) TimerEvent: {}
+[3.305398] (-) TimerEvent: {}
+[3.311317] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[3.311999] (turtlesim) StdoutLine: {'line': b'creating turtlesim.egg-info\n'}
+[3.312292] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[3.312530] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[3.312725] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[3.312940] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[3.315032] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[3.315512] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[3.355591] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[3.405523] (-) TimerEvent: {}
+[3.505750] (-) TimerEvent: {}
+[3.606022] (-) TimerEvent: {}
+[3.706296] (-) TimerEvent: {}
+[3.806566] (-) TimerEvent: {}
+[3.906780] (-) TimerEvent: {}
+[4.007022] (-) TimerEvent: {}
+[4.083793] (turtlesim) StdoutLine: {'line': b'[  2%] Built target turtlesim__cpp\n'}
+[4.097981] (turtlesim) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.099555] (turtlesim) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.100318] (turtlesim) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.107120] (-) TimerEvent: {}
+[4.207434] (-) TimerEvent: {}
+[4.307954] (-) TimerEvent: {}
+[4.384078] (turtlesim) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o\x1b[0m\n'}
+[4.384365] (turtlesim) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o\x1b[0m\n'}
+[4.384497] (turtlesim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o\x1b[0m\n'}
+[4.384624] (turtlesim) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o\x1b[0m\n'}
+[4.385742] (turtlesim) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o\x1b[0m\n'}
+[4.408048] (-) TimerEvent: {}
+[4.482145] (turtlesim) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o\x1b[0m\n'}
+[4.482549] (turtlesim) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o\x1b[0m\n'}
+[4.508149] (-) TimerEvent: {}
+[4.511067] (turtlesim) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o\x1b[0m\n'}
+[4.602102] (turtlesim) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_generator_c.so\x1b[0m\n'}
+[4.608253] (-) TimerEvent: {}
+[4.652954] (turtlesim) StdoutLine: {'line': b'[ 14%] Built target turtlesim__rosidl_generator_c\n'}
+[4.674376] (turtlesim) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.674591] (turtlesim) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.674780] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.708350] (-) TimerEvent: {}
+[4.808765] (-) TimerEvent: {}
+[4.909060] (-) TimerEvent: {}
+[5.009497] (-) TimerEvent: {}
+[5.109786] (-) TimerEvent: {}
+[5.141625] (turtlesim) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[5.156988] (turtlesim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[5.173915] (turtlesim) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[5.210145] (-) TimerEvent: {}
+[5.310510] (-) TimerEvent: {}
+[5.410907] (-) TimerEvent: {}
+[5.511330] (-) TimerEvent: {}
+[5.612102] (-) TimerEvent: {}
+[5.679640] (turtlesim) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[5.712207] (-) TimerEvent: {}
+[5.720580] (turtlesim) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[5.738565] (turtlesim) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[5.812308] (-) TimerEvent: {}
+[5.814550] (turtlesim) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[5.912413] (-) TimerEvent: {}
+[5.980596] (turtlesim) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[6.012556] (-) TimerEvent: {}
+[6.013521] (turtlesim) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[6.097956] (turtlesim) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[6.112645] (-) TimerEvent: {}
+[6.135126] (turtlesim) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/color__type_support.cpp.o\x1b[0m\n'}
+[6.180560] (turtlesim) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[6.189855] (turtlesim) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[6.214069] (-) TimerEvent: {}
+[6.259723] (turtlesim) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[6.268145] (turtlesim) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[6.314209] (-) TimerEvent: {}
+[6.343929] (turtlesim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[6.415381] (-) TimerEvent: {}
+[6.434725] (turtlesim) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[6.501644] (turtlesim) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[6.518724] (-) TimerEvent: {}
+[6.544402] (turtlesim) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__type_support.c.o\x1b[0m\n'}
+[6.611589] (turtlesim) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.618848] (-) TimerEvent: {}
+[6.637683] (turtlesim) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__type_support.c.o\x1b[0m\n'}
+[6.659863] (turtlesim) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[6.705979] (turtlesim) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/pose__type_support.c.o\x1b[0m\n'}
+[6.718952] (-) TimerEvent: {}
+[6.723411] (turtlesim) StdoutLine: {'line': b'[ 40%] Built target turtlesim__rosidl_typesupport_c\n'}
+[6.761114] (turtlesim) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/kill__type_support.c.o\x1b[0m\n'}
+[6.778965] (turtlesim) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[6.792905] (turtlesim) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__type_support.c.o\x1b[0m\n'}
+[6.819071] (-) TimerEvent: {}
+[6.825516] (turtlesim) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/spawn__type_support.c.o\x1b[0m\n'}
+[6.877623] (turtlesim) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__type_support.c.o\x1b[0m\n'}
+[6.877902] (turtlesim) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o\x1b[0m\n'}
+[6.900485] (turtlesim) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__type_support_c.cpp.o\x1b[0m\n'}
+[6.912639] (turtlesim) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/pose__type_support.cpp.o\x1b[0m\n'}
+[6.919184] (-) TimerEvent: {}
+[6.950745] (turtlesim) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o\x1b[0m\n'}
+[6.957043] (turtlesim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/kill__type_support.cpp.o\x1b[0m\n'}
+[6.971626] (turtlesim) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.019291] (-) TimerEvent: {}
+[7.067872] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[7.092165] (turtlesim) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/set_pen__type_support.cpp.o\x1b[0m\n'}
+[7.119416] (-) TimerEvent: {}
+[7.219776] (-) TimerEvent: {}
+[7.277623] (turtlesim) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o\x1b[0m\n'}
+[7.321725] (-) TimerEvent: {}
+[7.337498] (turtlesim) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.425711] (-) TimerEvent: {}
+[7.432048] (turtlesim) StdoutLine: {'line': b'[ 54%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[7.458222] (turtlesim) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerating include/turtlesim/moc_turtle_frame.cpp\x1b[0m\n'}
+[7.466527] (turtlesim) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/pose__type_support_c.cpp.o\x1b[0m\n'}
+[7.525826] (-) TimerEvent: {}
+[7.628876] (-) TimerEvent: {}
+[7.636690] (turtlesim) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o\x1b[0m\n'}
+[7.640565] (turtlesim) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__type_support_c.cpp.o\x1b[0m\n'}
+[7.715672] (turtlesim) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o\x1b[0m\n'}
+[7.728944] (-) TimerEvent: {}
+[7.829772] (-) TimerEvent: {}
+[7.832141] (turtlesim) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o\x1b[0m\n'}
+[7.838369] (turtlesim) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/spawn__type_support.cpp.o\x1b[0m\n'}
+[7.929875] (-) TimerEvent: {}
+[8.030359] (-) TimerEvent: {}
+[8.038605] (turtlesim) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[8.088522] (turtlesim) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o\x1b[0m\n'}
+[8.130448] (-) TimerEvent: {}
+[8.133899] (turtlesim) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[8.230561] (-) TimerEvent: {}
+[8.302466] (turtlesim) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__type_support_c.cpp.o\x1b[0m\n'}
+[8.330678] (-) TimerEvent: {}
+[8.431042] (-) TimerEvent: {}
+[8.531426] (-) TimerEvent: {}
+[8.604717] (turtlesim) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__type_support_c.cpp.o\x1b[0m\n'}
+[8.631540] (-) TimerEvent: {}
+[8.636530] (turtlesim) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o\x1b[0m\n'}
+[8.731652] (-) TimerEvent: {}
+[8.810206] (turtlesim) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[8.832175] (-) TimerEvent: {}
+[8.835162] (turtlesim) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.932300] (-) TimerEvent: {}
+[8.965838] (turtlesim) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[9.014284] (turtlesim) StdoutLine: {'line': b'[ 70%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[9.032420] (-) TimerEvent: {}
+[9.085586] (turtlesim) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o\x1b[0m\n'}
+[9.132534] (-) TimerEvent: {}
+[9.148873] (turtlesim) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[9.232656] (-) TimerEvent: {}
+[9.333249] (-) TimerEvent: {}
+[9.415925] (turtlesim) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_relative__type_support_c.cpp.o\x1b[0m\n'}
+[9.433352] (-) TimerEvent: {}
+[9.534910] (-) TimerEvent: {}
+[9.594526] (turtlesim) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o\x1b[0m\n'}
+[9.635019] (-) TimerEvent: {}
+[9.735389] (-) TimerEvent: {}
+[9.836124] (-) TimerEvent: {}
+[9.867221] (turtlesim) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o\x1b[0m\n'}
+[9.922084] (turtlesim) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[9.936230] (-) TimerEvent: {}
+[10.010690] (turtlesim) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.036336] (-) TimerEvent: {}
+[10.136760] (-) TimerEvent: {}
+[10.142226] (turtlesim) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.225383] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[10.236855] (-) TimerEvent: {}
+[10.243108] (turtlesim) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o\x1b[0m\n'}
+[10.336979] (-) TimerEvent: {}
+[10.361725] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[10.437149] (-) TimerEvent: {}
+[10.497321] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim\n'}
+[10.537263] (-) TimerEvent: {}
+[10.596664] (turtlesim) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.637757] (-) TimerEvent: {}
+[10.738192] (-) TimerEvent: {}
+[10.838626] (-) TimerEvent: {}
+[10.939065] (-) TimerEvent: {}
+[11.039513] (-) TimerEvent: {}
+[11.139952] (-) TimerEvent: {}
+[11.240401] (-) TimerEvent: {}
+[11.340860] (-) TimerEvent: {}
+[11.441277] (-) TimerEvent: {}
+[11.541754] (-) TimerEvent: {}
+[11.642186] (-) TimerEvent: {}
+[11.742686] (-) TimerEvent: {}
+[11.844273] (-) TimerEvent: {}
+[11.950825] (-) TimerEvent: {}
+[12.051219] (-) TimerEvent: {}
+[12.151665] (-) TimerEvent: {}
+[12.252002] (-) TimerEvent: {}
+[12.352365] (-) TimerEvent: {}
+[12.452722] (-) TimerEvent: {}
+[12.553589] (-) TimerEvent: {}
+[12.654647] (-) TimerEvent: {}
+[12.756239] (-) TimerEvent: {}
+[12.856622] (-) TimerEvent: {}
+[12.957019] (-) TimerEvent: {}
+[13.057380] (-) TimerEvent: {}
+[13.158245] (-) TimerEvent: {}
+[13.259310] (-) TimerEvent: {}
+[13.360347] (-) TimerEvent: {}
+[13.460775] (-) TimerEvent: {}
+[13.561260] (-) TimerEvent: {}
+[13.662100] (-) TimerEvent: {}
+[13.762894] (-) TimerEvent: {}
+[13.863460] (-) TimerEvent: {}
+[13.963887] (-) TimerEvent: {}
+[14.064237] (-) TimerEvent: {}
+[14.164628] (-) TimerEvent: {}
+[14.265034] (-) TimerEvent: {}
+[14.365957] (-) TimerEvent: {}
+[14.466363] (-) TimerEvent: {}
+[14.567422] (-) TimerEvent: {}
+[14.668331] (-) TimerEvent: {}
+[14.768760] (-) TimerEvent: {}
+[14.871727] (-) TimerEvent: {}
+[14.975140] (-) TimerEvent: {}
+[15.075712] (-) TimerEvent: {}
+[15.177227] (-) TimerEvent: {}
+[15.277714] (-) TimerEvent: {}
+[15.380333] (-) TimerEvent: {}
+[15.480733] (-) TimerEvent: {}
+[15.495852] (turtlesim) StdoutLine: {'line': b'[ 80%] Built target turtlesim__py\n'}
+[15.588315] (turtlesim) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o\x1b[0m\n'}
+[15.588685] (-) TimerEvent: {}
+[15.689034] (-) TimerEvent: {}
+[15.793177] (-) TimerEvent: {}
+[15.894318] (-) TimerEvent: {}
+[15.924432] (turtlesim) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o\x1b[0m\n'}
+[15.994444] (-) TimerEvent: {}
+[16.094888] (-) TimerEvent: {}
+[16.195284] (-) TimerEvent: {}
+[16.209599] (turtlesim) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o\x1b[0m\n'}
+[16.295432] (-) TimerEvent: {}
+[16.395821] (-) TimerEvent: {}
+[16.455279] (turtlesim) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o\x1b[0m\n'}
+[16.495942] (-) TimerEvent: {}
+[16.597154] (-) TimerEvent: {}
+[16.697595] (-) TimerEvent: {}
+[16.709009] (turtlesim) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o\x1b[0m\n'}
+[16.797726] (-) TimerEvent: {}
+[16.899123] (-) TimerEvent: {}
+[16.999532] (-) TimerEvent: {}
+[17.061481] (turtlesim) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o\x1b[0m\n'}
+[17.099652] (-) TimerEvent: {}
+[17.200210] (-) TimerEvent: {}
+[17.299802] (turtlesim) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o\x1b[0m\n'}
+[17.300286] (-) TimerEvent: {}
+[17.354935] (turtlesim) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o\x1b[0m\n'}
+[17.400726] (-) TimerEvent: {}
+[17.501309] (-) TimerEvent: {}
+[17.602015] (-) TimerEvent: {}
+[17.615859] (turtlesim) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/libturtlesim__rosidl_generator_py.so\x1b[0m\n'}
+[17.702187] (-) TimerEvent: {}
+[17.715442] (turtlesim) StdoutLine: {'line': b'[ 89%] Built target turtlesim__rosidl_generator_py\n'}
+[17.788317] (turtlesim) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[17.794174] (turtlesim) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[17.802276] (-) TimerEvent: {}
+[17.902849] (-) TimerEvent: {}
+[18.003898] (-) TimerEvent: {}
+[18.104730] (-) TimerEvent: {}
+[18.205640] (-) TimerEvent: {}
+[18.311343] (-) TimerEvent: {}
+[18.350905] (turtlesim) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.411457] (-) TimerEvent: {}
+[18.466687] (turtlesim) StdoutLine: {'line': b'[ 92%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[18.494058] (turtlesim) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.511591] (-) TimerEvent: {}
+[18.525652] (turtlesim) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[18.599550] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[18.611804] (-) TimerEvent: {}
+[18.712678] (-) TimerEvent: {}
+[18.813276] (-) TimerEvent: {}
+[18.913726] (-) TimerEvent: {}
+[18.977641] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.013845] (-) TimerEvent: {}
+[19.096749] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[19.113963] (-) TimerEvent: {}
+[19.214336] (-) TimerEvent: {}
+[19.314721] (-) TimerEvent: {}
+[19.415115] (-) TimerEvent: {}
+[19.515493] (-) TimerEvent: {}
+[19.615873] (-) TimerEvent: {}
+[19.716247] (-) TimerEvent: {}
+[19.816652] (-) TimerEvent: {}
+[19.917050] (-) TimerEvent: {}
+[20.017735] (-) TimerEvent: {}
+[20.118281] (-) TimerEvent: {}
+[20.218675] (-) TimerEvent: {}
+[20.319027] (-) TimerEvent: {}
+[20.419540] (-) TimerEvent: {}
+[20.519954] (-) TimerEvent: {}
+[20.620322] (-) TimerEvent: {}
+[20.720708] (-) TimerEvent: {}
+[20.821081] (-) TimerEvent: {}
+[20.921464] (-) TimerEvent: {}
+[21.021899] (-) TimerEvent: {}
+[21.122298] (-) TimerEvent: {}
+[21.222709] (-) TimerEvent: {}
+[21.323152] (-) TimerEvent: {}
+[21.423989] (-) TimerEvent: {}
+[21.524429] (-) TimerEvent: {}
+[21.624832] (-) TimerEvent: {}
+[21.725224] (-) TimerEvent: {}
+[21.825576] (-) TimerEvent: {}
+[21.931168] (-) TimerEvent: {}
+[22.031528] (-) TimerEvent: {}
+[22.131898] (-) TimerEvent: {}
+[22.232237] (-) TimerEvent: {}
+[22.332635] (-) TimerEvent: {}
+[22.433009] (-) TimerEvent: {}
+[22.533445] (-) TimerEvent: {}
+[22.570328] (turtlesim) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable turtle_teleop_key\x1b[0m\n'}
+[22.633564] (-) TimerEvent: {}
+[22.734101] (-) TimerEvent: {}
+[22.834474] (-) TimerEvent: {}
+[22.934843] (-) TimerEvent: {}
+[23.035202] (-) TimerEvent: {}
+[23.134698] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtle_teleop_key\n'}
+[23.135279] (-) TimerEvent: {}
+[23.235606] (-) TimerEvent: {}
+[23.335976] (-) TimerEvent: {}
+[23.436379] (-) TimerEvent: {}
+[23.536770] (-) TimerEvent: {}
+[23.637180] (-) TimerEvent: {}
+[23.737555] (-) TimerEvent: {}
+[23.837877] (-) TimerEvent: {}
+[23.938229] (-) TimerEvent: {}
+[24.038571] (-) TimerEvent: {}
+[24.138909] (-) TimerEvent: {}
+[24.239253] (-) TimerEvent: {}
+[24.339609] (-) TimerEvent: {}
+[24.439988] (-) TimerEvent: {}
+[24.540341] (-) TimerEvent: {}
+[24.640690] (-) TimerEvent: {}
+[24.741160] (-) TimerEvent: {}
+[24.841529] (-) TimerEvent: {}
+[24.941903] (-) TimerEvent: {}
+[25.042892] (-) TimerEvent: {}
+[25.143260] (-) TimerEvent: {}
+[25.243550] (-) TimerEvent: {}
+[25.343901] (-) TimerEvent: {}
+[25.444222] (-) TimerEvent: {}
+[25.544520] (-) TimerEvent: {}
+[25.644791] (-) TimerEvent: {}
+[25.745109] (-) TimerEvent: {}
+[25.845395] (-) TimerEvent: {}
+[25.946107] (-) TimerEvent: {}
+[26.046459] (-) TimerEvent: {}
+[26.146731] (-) TimerEvent: {}
+[26.247025] (-) TimerEvent: {}
+[26.252685] (turtlesim) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable mimic\x1b[0m\n'}
+[26.347168] (-) TimerEvent: {}
+[26.447492] (-) TimerEvent: {}
+[26.547832] (-) TimerEvent: {}
+[26.648103] (-) TimerEvent: {}
+[26.748410] (-) TimerEvent: {}
+[26.848728] (-) TimerEvent: {}
+[26.868005] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target mimic\n'}
+[26.948846] (-) TimerEvent: {}
+[27.049209] (-) TimerEvent: {}
+[27.149575] (-) TimerEvent: {}
+[27.249934] (-) TimerEvent: {}
+[27.263113] (turtlesim) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable draw_square\x1b[0m\n'}
+[27.350043] (-) TimerEvent: {}
+[27.450426] (-) TimerEvent: {}
+[27.550850] (-) TimerEvent: {}
+[27.651250] (-) TimerEvent: {}
+[27.751627] (-) TimerEvent: {}
+[27.852087] (-) TimerEvent: {}
+[27.952493] (-) TimerEvent: {}
+[27.999100] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target draw_square\n'}
+[28.052642] (-) TimerEvent: {}
+[28.153066] (-) TimerEvent: {}
+[28.253497] (-) TimerEvent: {}
+[28.353878] (-) TimerEvent: {}
+[28.454228] (-) TimerEvent: {}
+[28.554574] (-) TimerEvent: {}
+[28.654905] (-) TimerEvent: {}
+[28.755253] (-) TimerEvent: {}
+[28.855675] (-) TimerEvent: {}
+[28.955956] (-) TimerEvent: {}
+[29.056224] (-) TimerEvent: {}
+[29.156493] (-) TimerEvent: {}
+[29.256763] (-) TimerEvent: {}
+[29.357082] (-) TimerEvent: {}
+[29.457375] (-) TimerEvent: {}
+[29.557681] (-) TimerEvent: {}
+[29.657975] (-) TimerEvent: {}
+[29.758273] (-) TimerEvent: {}
+[29.858603] (-) TimerEvent: {}
+[29.958980] (-) TimerEvent: {}
+[30.059398] (-) TimerEvent: {}
+[30.160097] (-) TimerEvent: {}
+[30.260799] (-) TimerEvent: {}
+[30.361264] (-) TimerEvent: {}
+[30.461538] (-) TimerEvent: {}
+[30.561884] (-) TimerEvent: {}
+[30.662192] (-) TimerEvent: {}
+[30.762498] (-) TimerEvent: {}
+[30.862819] (-) TimerEvent: {}
+[30.963163] (-) TimerEvent: {}
+[31.063569] (-) TimerEvent: {}
+[31.164112] (-) TimerEvent: {}
+[31.264494] (-) TimerEvent: {}
+[31.317425] (turtlesim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[31.364623] (-) TimerEvent: {}
+[31.464920] (-) TimerEvent: {}
+[31.565249] (-) TimerEvent: {}
+[31.665609] (-) TimerEvent: {}
+[31.765961] (-) TimerEvent: {}
+[31.866375] (-) TimerEvent: {}
+[31.966976] (-) TimerEvent: {}
+[32.067555] (-) TimerEvent: {}
+[32.168030] (-) TimerEvent: {}
+[32.268476] (-) TimerEvent: {}
+[32.368943] (-) TimerEvent: {}
+[32.469291] (-) TimerEvent: {}
+[32.569772] (-) TimerEvent: {}
+[32.670168] (-) TimerEvent: {}
+[32.770515] (-) TimerEvent: {}
+[32.870914] (-) TimerEvent: {}
+[32.971321] (-) TimerEvent: {}
+[33.071788] (-) TimerEvent: {}
+[33.172203] (-) TimerEvent: {}
+[33.272544] (-) TimerEvent: {}
+[33.372909] (-) TimerEvent: {}
+[33.473223] (-) TimerEvent: {}
+[33.573536] (-) TimerEvent: {}
+[33.673889] (-) TimerEvent: {}
+[33.774287] (-) TimerEvent: {}
+[33.874601] (-) TimerEvent: {}
+[33.974924] (-) TimerEvent: {}
+[34.075336] (-) TimerEvent: {}
+[34.175728] (-) TimerEvent: {}
+[34.239548] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[34.256214] (turtlesim) CommandEnded: {'returncode': 0}
+[34.275849] (-) TimerEvent: {}
+[34.376123] (-) TimerEvent: {}
+[34.476390] (-) TimerEvent: {}
+[34.559961] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[34.560889] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/majd/Documents/Robotik/ros2_ws/build/turtlesim'], 'cwd': '/home/majd/Documents/Robotik/ros2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'majd'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/sim_car_controller/lib:/home/majd/autominy/catkin_ws/install/serial/lib:/home/majd/autominy/catkin_ws/install/road_marking_localization/lib:/home/majd/autominy/catkin_ws/install/remote_control/lib:/home/majd/autominy/catkin_ws/install/odometry/lib:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/lib:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/hardware_calibration/lib:/home/majd/autominy/catkin_ws/install/emergency_stop/lib:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/lib:/home/majd/autominy/catkin_ws/install/autominy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/majd'), ('OLDPWD', '/home/majd/Documents/Robotik/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '1820'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'majd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'majd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/arduino_communication/bin:/home/majd/autominy/catkin_ws/install/road_marking_localization/bin:/home/majd/autominy/catkin_ws/install/remote_control/bin:/home/majd/autominy/catkin_ws/install/odometry/bin:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/bin:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/hardware_calibration/bin:/home/majd/autominy/catkin_ws/install/emergency_stop/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/majd-HP-ProBook-440-G5:@/tmp/.ICE-unix/1766,unix/majd-HP-ProBook-440-G5:/tmp/.ICE-unix/1766'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/12d2df6f_bad9_4eda_a884_a6a21dfaa6a0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YFEEU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '27'), ('AMENT_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/majd/Documents/Robotik/ros2_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/local/lib/python3.10/dist-packages:/home/majd/autominy/catkin_ws/install/autominy_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/opt/ros/humble')]), 'shell': False}
+[34.570082] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.570392] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[34.570574] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[34.570790] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[34.570930] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[34.571175] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[34.571260] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[34.571506] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[34.571725] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[34.571945] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[34.572101] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[34.572219] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[34.572347] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[34.572441] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[34.572522] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[34.572590] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[34.572672] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[34.572745] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[34.572824] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[34.572900] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[34.572973] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[34.573047] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[34.573124] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[34.573200] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[34.573274] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[34.573348] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[34.573420] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[34.573505] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[34.573606] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[34.573702] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[34.573797] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[34.573901] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[34.573995] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[34.574088] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[34.574195] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[34.574329] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[34.574437] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[34.574551] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[34.574681] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[34.574813] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[34.574961] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[34.575091] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[34.575237] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[34.575368] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[34.575512] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[34.575643] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[34.575771] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[34.575894] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[34.576020] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[34.576122] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[34.576228] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[34.576294] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[34.576357] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[34.576418] (-) TimerEvent: {}
+[34.577003] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""\n'}
+[34.577170] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[34.577251] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[34.577412] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[34.577555] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[34.577715] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[34.577832] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[34.577944] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[34.578063] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[34.578165] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[34.578275] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[34.578383] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[34.578487] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[34.579039] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[34.579164] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[34.579354] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[34.579487] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[34.579647] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[34.579770] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[34.579924] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[34.580076] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[34.580267] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[34.580410] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[34.580563] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[34.580695] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[34.580824] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[34.580965] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[34.581118] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[34.581242] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[34.581392] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[34.581523] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[34.581665] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[34.581795] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[34.581947] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[34.582074] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[34.582238] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[34.582379] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[34.582536] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[34.582665] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[34.582811] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[34.582971] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[34.583103] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[34.583247] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[34.583375] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[34.583503] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[34.583629] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[34.583732] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[34.583838] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[34.583964] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[34.584098] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[34.584284] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[34.584458] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[34.584570] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[34.584680] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[34.585150] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[34.585277] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[34.585445] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[34.585575] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[34.585762] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[34.585900] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[34.586024] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[34.586188] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.586309] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[34.586432] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[34.586552] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[34.586673] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[34.586812] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.586993] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.587140] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[34.587280] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[34.587401] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[34.587519] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[34.587637] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.587756] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.587915] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.588040] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.588172] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.588303] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[34.588482] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[34.588646] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[34.588748] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[34.588869] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[34.589005] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[34.589127] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[34.589252] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[34.589376] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[34.589502] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[34.589658] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[34.589799] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[34.589927] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[34.590119] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[34.590309] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[34.590483] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[34.590646] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[34.590796] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[34.590951] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[34.591107] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[34.591252] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[34.591370] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[34.591528] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[34.591658] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[34.591789] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[34.591915] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[34.592067] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[34.592265] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""\n'}
+[34.592386] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[34.592550] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""\n'}
+[34.592724] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[34.592878] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[34.593041] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[34.593297] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[34.593524] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.593729] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[34.593924] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[34.594074] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[34.594233] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.594391] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.594548] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[34.594705] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[34.594842] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[34.595012] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.595165] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.595298] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[34.595477] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[34.595630] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[34.595788] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[34.595946] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[34.596105] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.596305] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.596446] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.596608] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[34.596746] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[34.596922] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[34.597104] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""\n'}
+[34.597352] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[34.597588] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[34.597780] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.1-py3.10.egg-info\n'}
+[34.597974] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.1-py3.10.egg-info/SOURCES.txt\n'}
+[34.598163] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.1-py3.10.egg-info/dependency_links.txt\n'}
+[34.598376] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.1-py3.10.egg-info/PKG-INFO\n'}
+[34.598593] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.1-py3.10.egg-info/top_level.txt\n'}
+[34.598752] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[34.598912] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[34.599041] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[34.599169] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[34.599314] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[34.599446] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[34.599580] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[34.599709] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[34.599821] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[34.599971] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[34.600080] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[34.600221] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[34.600331] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[34.600441] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[34.600550] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[34.600670] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[34.600779] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[34.600888] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[34.600997] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[34.601106] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[34.601216] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[34.601324] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[34.601433] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[34.601541] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[34.601652] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[34.601754] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[34.601851] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[34.601946] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[34.602052] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[34.602153] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[34.602288] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[34.656088] (turtlesim) StdoutLine: {'line': b"Listing '/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[34.656373] (turtlesim) StdoutLine: {'line': b"Compiling '/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py'...\n"}
+[34.656500] (turtlesim) StdoutLine: {'line': b"Listing '/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[34.656612] (turtlesim) StdoutLine: {'line': b"Compiling '/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py'...\n"}
+[34.656722] (turtlesim) StdoutLine: {'line': b"Compiling '/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py'...\n"}
+[34.656832] (turtlesim) StdoutLine: {'line': b"Listing '/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[34.656976] (turtlesim) StdoutLine: {'line': b"Compiling '/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py'...\n"}
+[34.657097] (turtlesim) StdoutLine: {'line': b"Compiling '/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py'...\n"}
+[34.657218] (turtlesim) StdoutLine: {'line': b"Compiling '/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py'...\n"}
+[34.657341] (turtlesim) StdoutLine: {'line': b"Listing '/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[34.657459] (turtlesim) StdoutLine: {'line': b"Compiling '/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py'...\n"}
+[34.657572] (turtlesim) StdoutLine: {'line': b"Compiling '/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py'...\n"}
+[34.657687] (turtlesim) StdoutLine: {'line': b"Compiling '/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py'...\n"}
+[34.657810] (turtlesim) StdoutLine: {'line': b"Compiling '/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py'...\n"}
+[34.657947] (turtlesim) StdoutLine: {'line': b"Compiling '/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py'...\n"}
+[34.658067] (turtlesim) StdoutLine: {'line': b"Compiling '/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py'...\n"}
+[34.661251] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[34.661678] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[34.661945] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[34.662336] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[34.662660] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[34.663059] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[34.663285] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[34.663651] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so" to ""\n'}
+[34.663770] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[34.663864] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[34.663955] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[34.664098] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[34.664319] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[34.664502] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[34.664620] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[34.664706] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[34.664783] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[34.664879] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[34.665055] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[34.665161] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[34.665278] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[34.665397] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[34.665514] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[34.665631] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[34.665719] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[34.665845] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[34.665983] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[34.666109] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[34.666234] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[34.666356] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[34.666478] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[34.666603] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[34.666725] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[34.666855] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[34.667036] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[34.676263] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[34.676413] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[34.676483] (-) TimerEvent: {}
+[34.678049] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""\n'}
+[34.678172] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[34.682169] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/turtlesim/draw_square" to ""\n'}
+[34.682323] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[34.685991] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/turtlesim/lib/turtlesim/mimic" to ""\n'}
+[34.686247] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/images\n'}
+[34.686364] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[34.686464] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[34.686539] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[34.686636] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[34.686707] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[34.686801] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[34.686906] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[34.686999] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[34.687086] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[34.687221] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/launch\n'}
+[34.687309] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[34.687496] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[34.687695] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[34.687836] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[34.688075] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[34.688322] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[34.688533] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[34.688720] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[34.688898] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[34.689063] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[34.689254] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[34.689488] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[34.689732] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[34.690012] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[34.690236] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[34.690461] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[34.690669] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[34.690855] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[34.691057] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[34.691248] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[34.691502] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[34.691712] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[34.691937] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[34.692115] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[34.692376] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[34.692648] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[34.692887] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[34.693212] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[34.693466] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[34.693706] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[34.693861] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[34.694007] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[34.694201] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[34.694722] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[34.694848] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[34.694944] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[34.695095] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[34.695359] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[34.695633] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[34.695829] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[34.698657] (turtlesim) CommandEnded: {'returncode': 0}
+[34.776605] (-) TimerEvent: {}
+[34.876823] (-) TimerEvent: {}
+[34.977078] (-) TimerEvent: {}
+[35.058632] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[35.059485] (-) EventReactorShutdown: {}

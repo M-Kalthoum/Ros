@@ -1,0 +1,4 @@
+[console_scripts]
+currentSpeed = assignment2_publisher_subscriber.subscriber:main
+drive = assignment2_publisher_subscriber.publisher:main
+
