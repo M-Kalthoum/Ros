@@ -1,0 +1,9 @@
+/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/CMakeFiles/uninstall.dir
+/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/CMakeFiles/assignment2_publisher_subscriber2_uninstall.dir
+/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/CMakeFiles/test.dir
+/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/CMakeFiles/edit_cache.dir
+/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/CMakeFiles/rebuild_cache.dir
+/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/CMakeFiles/list_install_components.dir
+/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/CMakeFiles/install.dir
+/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/CMakeFiles/install/local.dir
+/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/CMakeFiles/install/strip.dir

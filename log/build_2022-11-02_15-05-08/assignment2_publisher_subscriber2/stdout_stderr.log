@@ -1,0 +1,20 @@
+-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclpy: 3.3.4 (/opt/ros/humble/share/rclpy/cmake)
+-- Found autominy_msgs: 0.0.1 (/home/majd/autominy/catkin_ws/install/autominy_msgs/share/autominy_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+  ament_python_install_package() the Python package folder
+  '/home/majd/Documents/Robotik/ros2_ws/src/assignment2_publisher_subscriber2/assignment2_publisher_subscriber2'
+  doesn't contain an '__init__.py' file
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+  CMakeLists.txt:16 (ament_python_install_package)
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

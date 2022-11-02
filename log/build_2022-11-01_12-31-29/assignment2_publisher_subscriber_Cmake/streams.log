@@ -1,0 +1,56 @@
+[0.019s] Invoking command in '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber_Cmake': /usr/bin/cmake /home/majd/Documents/Robotik/ros2_ws/src/assignment2_publisher_subscriber_Cmake -DCMAKE_INSTALL_PREFIX=/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber_Cmake
+[0.133s] -- The C compiler identification is GNU 11.3.0
+[0.250s] -- The CXX compiler identification is GNU 11.3.0
+[0.262s] -- Detecting C compiler ABI info
+[0.357s] -- Detecting C compiler ABI info - done
+[0.367s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.367s] -- Detecting C compile features
+[0.369s] -- Detecting C compile features - done
+[0.373s] -- Detecting CXX compiler ABI info
+[0.482s] -- Detecting CXX compiler ABI info - done
+[0.492s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.492s] -- Detecting CXX compile features
+[0.493s] -- Detecting CXX compile features - done
+[0.502s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.744s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.831s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_uninstall_target-extras.cmake:40 (add_custom_target):
+[0.831s]   add_custom_target called with invalid target name
+[0.831s]   "assignment2_publisher_subscriber_Cmake/_uninstall".  Target names may not
+[0.831s]   contain a slash.  Use ADD_CUSTOM_COMMAND to generate files.
+[0.831s] Call Stack (most recent call first):
+[0.831s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.831s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.832s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.832s]   CMakeLists.txt:9 (find_package)
+[0.832s] 
+[0.832s] [0m
+[0.909s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.982s] Error parsing '/home/majd/Documents/Robotik/ros2_ws/src/assignment2_publisher_subscriber_Cmake/package.xml':
+[1.044s] Traceback (most recent call last):
+[1.044s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.044s]     main()
+[1.044s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.044s]     raise e
+[1.044s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.045s]     package = parse_package_string(
+[1.045s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[1.045s]     pkg.validate(warnings=warnings)
+[1.045s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[1.045s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[1.045s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/majd/Documents/Robotik/ros2_ws/src/assignment2_publisher_subscriber_Cmake/package.xml':
+[1.046s] Package name "assignment2_publisher_subscriber_Cmake/" does not follow naming conventions
+[1.068s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.068s]   execute_process(/usr/bin/python3.10
+[1.068s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.069s]   /home/majd/Documents/Robotik/ros2_ws/src/assignment2_publisher_subscriber_Cmake/package.xml
+[1.069s]   /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber_Cmake/ament_cmake_core/package.cmake)
+[1.069s]   returned error code 1
+[1.069s] Call Stack (most recent call first):
+[1.069s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.070s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.070s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[1.070s] 
+[1.070s] [0m
+[1.070s] -- Configuring incomplete, errors occurred!
+[1.070s] See also "/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber_Cmake/CMakeFiles/CMakeOutput.log".
+[1.077s] Invoked command in '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber_Cmake' returned '1': /usr/bin/cmake /home/majd/Documents/Robotik/ros2_ws/src/assignment2_publisher_subscriber_Cmake -DCMAKE_INSTALL_PREFIX=/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber_Cmake
