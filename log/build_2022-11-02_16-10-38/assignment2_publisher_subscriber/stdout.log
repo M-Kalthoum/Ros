@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing assignment2_publisher_subscriber.egg-info/PKG-INFO
+writing dependency_links to assignment2_publisher_subscriber.egg-info/dependency_links.txt
+writing entry points to assignment2_publisher_subscriber.egg-info/entry_points.txt
+writing requirements to assignment2_publisher_subscriber.egg-info/requires.txt
+writing top-level names to assignment2_publisher_subscriber.egg-info/top_level.txt
+reading manifest file 'assignment2_publisher_subscriber.egg-info/SOURCES.txt'
+writing manifest file 'assignment2_publisher_subscriber.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages/assignment2-publisher-subscriber.egg-link (link to .)
+Installing currentSpeed script to /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/assignment2_publisher_subscriber
+Installing drive script to /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/assignment2_publisher_subscriber
+
+Installed /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber
+running install_data

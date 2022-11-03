@@ -1,0 +1,93 @@
+[0.259s] Invoking command in '/home/majd/Documents/Robotik/ros2_ws/build/simple_drive_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble /usr/bin/cmake /home/majd/Documents/Robotik/ros2_ws/src/simple_drive_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control
+[3.019s] -- The C compiler identification is GNU 11.3.0
+[3.020s] -- The CXX compiler identification is GNU 11.3.0
+[3.020s] -- Detecting C compiler ABI info
+[3.020s] -- Detecting C compiler ABI info - done
+[3.021s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.021s] -- Detecting C compile features
+[3.021s] -- Detecting C compile features - done
+[3.021s] -- Detecting CXX compiler ABI info
+[3.021s] -- Detecting CXX compiler ABI info - done
+[3.021s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.022s] -- Detecting CXX compile features
+[3.022s] -- Detecting CXX compile features - done
+[3.022s] -- Found rclpy: 3.3.4 (/opt/ros/humble/share/rclpy/cmake)
+[3.022s] -- Found std_msgs: 4.2.2 (/opt/ros/humble/share/std_msgs/cmake)
+[3.023s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[3.023s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.438s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.497s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.588s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.690s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.803s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.111s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.950s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[7.964s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.774s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.895s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[8.911s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[9.050s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[9.053s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.053s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[9.054s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[9.159s] -- Found PythonExtra: .so  
+[9.515s] -- Configuring done
+[9.673s] -- Generating done
+[9.685s] -- Build files have been written to: /home/majd/Documents/Robotik/ros2_ws/build/simple_drive_control
+[9.718s] Invoked command in '/home/majd/Documents/Robotik/ros2_ws/build/simple_drive_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble /usr/bin/cmake /home/majd/Documents/Robotik/ros2_ws/src/simple_drive_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control
+[9.724s] Invoking command in '/home/majd/Documents/Robotik/ros2_ws/build/simple_drive_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/majd/Documents/Robotik/ros2_ws/build/simple_drive_control -- -j8 -l8
+[9.959s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[11.488s] [  3%] Built target simple_drive_control__cpp
+[11.611s] [  3%] Built target ament_cmake_python_symlink_simple_drive_control
+[11.659s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[13.037s] [  9%] [32mBuilding CXX object CMakeFiles/simple_drive_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/simple_drive_control/srv/detail/driving_maneuver__type_support.cpp.o[0m
+[14.963s] [ 12%] [32m[1mLinking CXX shared library libsimple_drive_control__rosidl_typesupport_introspection_cpp.so[0m
+[15.264s] [ 12%] Built target simple_drive_control__rosidl_typesupport_introspection_cpp
+[16.517s] running egg_info
+[16.519s] creating simple_drive_control.egg-info
+[16.519s] writing simple_drive_control.egg-info/PKG-INFO
+[16.520s] writing dependency_links to simple_drive_control.egg-info/dependency_links.txt
+[16.521s] writing top-level names to simple_drive_control.egg-info/top_level.txt
+[16.522s] writing manifest file 'simple_drive_control.egg-info/SOURCES.txt'
+[16.531s] reading manifest file 'simple_drive_control.egg-info/SOURCES.txt'
+[16.534s] writing manifest file 'simple_drive_control.egg-info/SOURCES.txt'
+[16.679s] [ 12%] Built target ament_cmake_python_build_simple_drive_control_egg
+[16.723s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[18.142s] [ 19%] [32mBuilding CXX object CMakeFiles/simple_drive_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/simple_drive_control/srv/detail/dds_fastrtps/driving_maneuver__type_support.cpp.o[0m
+[20.118s] [ 22%] [32m[1mLinking CXX shared library libsimple_drive_control__rosidl_typesupport_fastrtps_cpp.so[0m
+[20.473s] [ 22%] Built target simple_drive_control__rosidl_typesupport_fastrtps_cpp
+[20.518s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[21.749s] [ 29%] [32mBuilding CXX object CMakeFiles/simple_drive_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/simple_drive_control/srv/driving_maneuver__type_support.cpp.o[0m
+[23.065s] [ 32%] [32m[1mLinking CXX shared library libsimple_drive_control__rosidl_typesupport_cpp.so[0m
+[23.247s] [ 32%] Built target simple_drive_control__rosidl_typesupport_cpp
+[23.292s] [ 35%] [34m[1mGenerating C code for ROS interfaces[0m
+[24.905s] [ 38%] [32mBuilding C object CMakeFiles/simple_drive_control__rosidl_generator_c.dir/rosidl_generator_c/simple_drive_control/srv/detail/driving_maneuver__functions.c.o[0m
+[25.160s] [ 41%] [32m[1mLinking C shared library libsimple_drive_control__rosidl_generator_c.so[0m
+[25.329s] [ 41%] Built target simple_drive_control__rosidl_generator_c
+[25.370s] [ 45%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[26.752s] [ 48%] [32mBuilding CXX object CMakeFiles/simple_drive_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/simple_drive_control/srv/detail/driving_maneuver__type_support_c.cpp.o[0m
+[28.517s] [ 51%] [32m[1mLinking CXX shared library libsimple_drive_control__rosidl_typesupport_fastrtps_c.so[0m
+[28.871s] [ 51%] Built target simple_drive_control__rosidl_typesupport_fastrtps_c
+[28.911s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[30.181s] [ 58%] [32mBuilding CXX object CMakeFiles/simple_drive_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/simple_drive_control/srv/driving_maneuver__type_support.cpp.o[0m
+[30.332s] [ 61%] [32m[1mLinking CXX shared library libsimple_drive_control__rosidl_typesupport_c.so[0m
+[30.517s] [ 61%] Built target simple_drive_control__rosidl_typesupport_c
+[30.560s] [ 64%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[31.969s] [ 67%] [32mBuilding C object CMakeFiles/simple_drive_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/simple_drive_control/srv/detail/driving_maneuver__type_support.c.o[0m
+[32.126s] [ 70%] [32m[1mLinking C shared library libsimple_drive_control__rosidl_typesupport_introspection_c.so[0m
+[32.263s] [ 70%] Built target simple_drive_control__rosidl_typesupport_introspection_c
+[32.364s] [ 70%] Built target simple_drive_control
+[32.458s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[34.922s] [ 74%] Built target simple_drive_control__py
+[35.005s] [ 77%] [32mBuilding C object CMakeFiles/simple_drive_control__rosidl_generator_py.dir/rosidl_generator_py/simple_drive_control/srv/_driving_maneuver_s.c.o[0m
+[35.508s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/simple_drive_control/libsimple_drive_control__rosidl_generator_py.so[0m
+[35.729s] [ 80%] Built target simple_drive_control__rosidl_generator_py
+[35.829s] [ 83%] [32mBuilding C object CMakeFiles/simple_drive_control__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/simple_drive_control/_simple_drive_control_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[36.311s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/simple_drive_control/simple_drive_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[36.493s] [ 87%] Built target simple_drive_control__rosidl_typesupport_fastrtps_c__pyext
+[36.593s] [ 90%] [32mBuilding C object CMakeFiles/simple_drive_control__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/simple_drive_control/_simple_drive_control_s.ep.rosidl_typesupport_c.c.o[0m
+[37.052s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/simple_drive_control/simple_drive_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[37.241s] [ 93%] Built target simple_drive_control__rosidl_typesupport_c__pyext
+[37.339s] [ 96%] [32mBuilding C object CMakeFiles/simple_drive_control__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/simple_drive_control/_simple_drive_control_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[37.804s] [100%] [32m[1mLinking C shared library rosidl_generator_py/simple_drive_control/simple_drive_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[37.992s] [100%] Built target simple_drive_control__rosidl_typesupport_introspection_c__pyext

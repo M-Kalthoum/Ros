@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from simple_drive_control/srv/DrivingManeuver.srv
+// generated code does not contain a copyright notice
+
+
+module simple_drive_control {
+  module srv {
+    struct DrivingManeuver_Request {
+      string direction;
+
+      string steering;
+
+      float distance;
+    };
+    struct DrivingManeuver_Response {
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,35 @@
+[2.850s] Invoking command in '/home/majd/Documents/Robotik/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble /usr/bin/cmake /home/majd/Documents/Robotik/ros2_ws/src/ros_tutorials/turtlesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/majd/Documents/Robotik/ros2_ws/install/turtlesim
+[2.957s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.722s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.754s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[3.758s] -- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.885s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.895s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.926s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.985s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.081s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.859s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[5.095s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.107s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.861s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.535s] -- Found rclcpp_action: 16.0.1 (/opt/ros/humble/share/rclcpp_action/cmake)
+[6.967s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[7.018s] -- Found std_srvs: 4.2.2 (/opt/ros/humble/share/std_srvs/cmake)
+[8.798s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[10.518s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.182s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.294s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.409s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.410s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.411s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[11.740s] -- Configuring done
+[12.150s] -- Generating done
+[12.171s] -- Build files have been written to: /home/majd/Documents/Robotik/ros2_ws/build/turtlesim
+[12.232s] Invoked command in '/home/majd/Documents/Robotik/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble /usr/bin/cmake /home/majd/Documents/Robotik/ros2_ws/src/ros_tutorials/turtlesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/majd/Documents/Robotik/ros2_ws/install/turtlesim
+[12.235s] Invoking command in '/home/majd/Documents/Robotik/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/majd/Documents/Robotik/ros2_ws/build/turtlesim -- -j8 -l8
+[12.517s] [  1%] Built target turtlesim__cpp
+[12.609s] failed to create symbolic link '/home/majd/Documents/Robotik/ros2_ws/build/turtlesim/ament_cmake_python/turtlesim/turtlesim' because existing path cannot be removed: Is a directory
+[12.609s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_turtlesim.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_turtlesim] Error 1
+[12.609s] gmake[1]: *** [CMakeFiles/Makefile2:429: CMakeFiles/ament_cmake_python_symlink_turtlesim.dir/all] Error 2
+[12.609s] gmake: *** [Makefile:146: all] Error 2
+[12.617s] Invoked command in '/home/majd/Documents/Robotik/ros2_ws/build/turtlesim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/majd/Documents/Robotik/ros2_ws/build/turtlesim -- -j8 -l8

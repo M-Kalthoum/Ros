@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from simple_parking_maneuver/srv/ParkingManeuver.srv
+// generated code does not contain a copyright notice
+
+
+module simple_parking_maneuver {
+  module srv {
+    struct ParkingManeuver_Request {
+      string direction;
+    };
+    struct ParkingManeuver_Response {
+      string info;
+    };
+  };
+};

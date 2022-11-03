@@ -1,0 +1,619 @@
+[0.000000] (-) TimerEvent: {}
+[0.000780] (assignment2_publisher_subscriber) JobQueued: {'identifier': 'assignment2_publisher_subscriber', 'dependencies': OrderedDict()}
+[0.001423] (assignment2_publisher_subscriber2) JobQueued: {'identifier': 'assignment2_publisher_subscriber2', 'dependencies': OrderedDict()}
+[0.002585] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.003245] (simple_drive_control) JobQueued: {'identifier': 'simple_drive_control', 'dependencies': OrderedDict()}
+[0.003386] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.006264] (simple_parking_maneuver) JobQueued: {'identifier': 'simple_parking_maneuver', 'dependencies': OrderedDict([('simple_drive_control', '/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control')])}
+[0.006592] (simple_drive_control) JobStarted: {'identifier': 'simple_drive_control'}
+[0.058723] (assignment2_publisher_subscriber) JobStarted: {'identifier': 'assignment2_publisher_subscriber'}
+[0.098060] (-) TimerEvent: {}
+[0.117824] (assignment2_publisher_subscriber2) JobStarted: {'identifier': 'assignment2_publisher_subscriber2'}
+[0.157797] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.198961] (-) TimerEvent: {}
+[0.205959] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.257391] (simple_drive_control) JobProgress: {'identifier': 'simple_drive_control', 'progress': 'cmake'}
+[0.258096] (simple_drive_control) Command: {'cmd': ['/usr/bin/cmake', '/home/majd/Documents/Robotik/ros2_ws/src/simple_drive_control', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control'], 'cwd': '/home/majd/Documents/Robotik/ros2_ws/build/simple_drive_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'majd'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/sim_car_controller/lib:/home/majd/autominy/catkin_ws/install/serial/lib:/home/majd/autominy/catkin_ws/install/road_marking_localization/lib:/home/majd/autominy/catkin_ws/install/remote_control/lib:/home/majd/autominy/catkin_ws/install/odometry/lib:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/lib:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/hardware_calibration/lib:/home/majd/autominy/catkin_ws/install/emergency_stop/lib:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/lib:/home/majd/autominy/catkin_ws/install/autominy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/majd'), ('OLDPWD', '/home/majd/Documents/Robotik/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '2317'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'majd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'majd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/arduino_communication/bin:/home/majd/autominy/catkin_ws/install/road_marking_localization/bin:/home/majd/autominy/catkin_ws/install/remote_control/bin:/home/majd/autominy/catkin_ws/install/odometry/bin:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/bin:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/hardware_calibration/bin:/home/majd/autominy/catkin_ws/install/emergency_stop/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/majd-HP-ProBook-440-G5:@/tmp/.ICE-unix/2279,unix/majd-HP-ProBook-440-G5:/tmp/.ICE-unix/2279'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b406f0fb_7dfd_4e7d_a14d_298f8ac2a7f0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EV3ZU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.940'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '27'), ('AMENT_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/majd/Documents/Robotik/ros2_ws/build/simple_drive_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/local/lib/python3.10/dist-packages:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages:/home/majd/autominy/catkin_ws/install/autominy_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble')]), 'shell': False}
+[0.300231] (-) TimerEvent: {}
+[0.403485] (-) TimerEvent: {}
+[0.504186] (-) TimerEvent: {}
+[0.604977] (-) TimerEvent: {}
+[0.706481] (-) TimerEvent: {}
+[0.809430] (-) TimerEvent: {}
+[0.910004] (-) TimerEvent: {}
+[1.010882] (-) TimerEvent: {}
+[1.112148] (-) TimerEvent: {}
+[1.213012] (-) TimerEvent: {}
+[1.313979] (-) TimerEvent: {}
+[1.414825] (-) TimerEvent: {}
+[1.515473] (-) TimerEvent: {}
+[1.616265] (-) TimerEvent: {}
+[1.695150] (assignment2_publisher_subscriber2) JobProgress: {'identifier': 'assignment2_publisher_subscriber2', 'progress': 'cmake'}
+[1.699631] (assignment2_publisher_subscriber2) Command: {'cmd': ['/usr/bin/cmake', '/home/majd/Documents/Robotik/ros2_ws/src/assignment2_publisher_subscriber2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2'], 'cwd': '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'majd'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/sim_car_controller/lib:/home/majd/autominy/catkin_ws/install/serial/lib:/home/majd/autominy/catkin_ws/install/road_marking_localization/lib:/home/majd/autominy/catkin_ws/install/remote_control/lib:/home/majd/autominy/catkin_ws/install/odometry/lib:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/lib:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/hardware_calibration/lib:/home/majd/autominy/catkin_ws/install/emergency_stop/lib:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/lib:/home/majd/autominy/catkin_ws/install/autominy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/majd'), ('OLDPWD', '/home/majd/Documents/Robotik/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '2317'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'majd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'majd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/arduino_communication/bin:/home/majd/autominy/catkin_ws/install/road_marking_localization/bin:/home/majd/autominy/catkin_ws/install/remote_control/bin:/home/majd/autominy/catkin_ws/install/odometry/bin:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/bin:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/hardware_calibration/bin:/home/majd/autominy/catkin_ws/install/emergency_stop/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/majd-HP-ProBook-440-G5:@/tmp/.ICE-unix/2279,unix/majd-HP-ProBook-440-G5:/tmp/.ICE-unix/2279'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b406f0fb_7dfd_4e7d_a14d_298f8ac2a7f0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EV3ZU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.940'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '27'), ('AMENT_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/local/lib/python3.10/dist-packages:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages:/home/majd/autominy/catkin_ws/install/autominy_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble')]), 'shell': False}
+[1.723124] (-) TimerEvent: {}
+[1.824098] (-) TimerEvent: {}
+[1.932722] (-) TimerEvent: {}
+[2.033618] (-) TimerEvent: {}
+[2.137073] (-) TimerEvent: {}
+[2.241333] (-) TimerEvent: {}
+[2.342191] (-) TimerEvent: {}
+[2.445094] (-) TimerEvent: {}
+[2.545875] (-) TimerEvent: {}
+[2.647811] (-) TimerEvent: {}
+[2.749062] (-) TimerEvent: {}
+[2.851809] (-) TimerEvent: {}
+[2.955522] (-) TimerEvent: {}
+[3.025109] (simple_drive_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[3.026506] (simple_drive_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[3.026805] (simple_drive_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.027044] (simple_drive_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.027281] (simple_drive_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.027490] (simple_drive_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.027679] (simple_drive_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.027878] (simple_drive_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.028062] (simple_drive_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.028244] (simple_drive_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.028438] (simple_drive_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.028677] (simple_drive_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.028981] (simple_drive_control) StdoutLine: {'line': b'-- Found rclpy: 3.3.4 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[3.029222] (simple_drive_control) StdoutLine: {'line': b'-- Found std_msgs: 4.2.2 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[3.029441] (simple_drive_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[3.029656] (simple_drive_control) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.031868] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.033634] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.033886] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Found rclpy: 3.3.4 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[3.034097] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Found autominy_msgs: 0.0.1 (/home/majd/autominy/catkin_ws/install/autominy_msgs/share/autominy_msgs/cmake)\n'}
+[3.034306] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.034836] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.035483] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.036800] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.037930] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.040126] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[3.051352] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/home/majd/Documents/Robotik/ros2_ws/src/ros_tutorials/turtlesim', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/majd/Documents/Robotik/ros2_ws/install/turtlesim'], 'cwd': '/home/majd/Documents/Robotik/ros2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'majd'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/sim_car_controller/lib:/home/majd/autominy/catkin_ws/install/serial/lib:/home/majd/autominy/catkin_ws/install/road_marking_localization/lib:/home/majd/autominy/catkin_ws/install/remote_control/lib:/home/majd/autominy/catkin_ws/install/odometry/lib:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/lib:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/hardware_calibration/lib:/home/majd/autominy/catkin_ws/install/emergency_stop/lib:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/lib:/home/majd/autominy/catkin_ws/install/autominy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/majd'), ('OLDPWD', '/home/majd/Documents/Robotik/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '2317'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'majd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'majd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/arduino_communication/bin:/home/majd/autominy/catkin_ws/install/road_marking_localization/bin:/home/majd/autominy/catkin_ws/install/remote_control/bin:/home/majd/autominy/catkin_ws/install/odometry/bin:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/bin:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/hardware_calibration/bin:/home/majd/autominy/catkin_ws/install/emergency_stop/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/majd-HP-ProBook-440-G5:@/tmp/.ICE-unix/2279,unix/majd-HP-ProBook-440-G5:/tmp/.ICE-unix/2279'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b406f0fb_7dfd_4e7d_a14d_298f8ac2a7f0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EV3ZU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.940'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '27'), ('AMENT_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/majd/Documents/Robotik/ros2_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/local/lib/python3.10/dist-packages:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages:/home/majd/autominy/catkin_ws/install/autominy_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble')]), 'shell': False}
+[3.056831] (-) TimerEvent: {}
+[3.157297] (-) TimerEvent: {}
+[3.162415] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.257687] (-) TimerEvent: {}
+[3.358581] (-) TimerEvent: {}
+[3.444036] (simple_drive_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.459759] (-) TimerEvent: {}
+[3.502978] (simple_drive_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.564589] (-) TimerEvent: {}
+[3.594313] (simple_drive_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.664735] (-) TimerEvent: {}
+[3.696074] (simple_drive_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.765075] (-) TimerEvent: {}
+[3.809987] (simple_drive_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.865591] (-) TimerEvent: {}
+[3.927445] (turtlesim) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.959381] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[3.963922] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[3.966150] (-) TimerEvent: {}
+[4.066745] (-) TimerEvent: {}
+[4.090555] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.100332] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.117317] (simple_drive_control) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[4.131663] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.166946] (-) TimerEvent: {}
+[4.191071] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.267055] (-) TimerEvent: {}
+[4.286103] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.341956] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.357866] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Generating done\n'}
+[4.362427] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Build files have been written to: /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2\n'}
+[4.369011] (-) TimerEvent: {}
+[4.392568] (assignment2_publisher_subscriber2) CommandEnded: {'returncode': 0}
+[4.393910] (assignment2_publisher_subscriber2) JobProgress: {'identifier': 'assignment2_publisher_subscriber2', 'progress': 'build'}
+[4.411717] (assignment2_publisher_subscriber2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2', '--', '-j8', '-l8'], 'cwd': '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'majd'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/sim_car_controller/lib:/home/majd/autominy/catkin_ws/install/serial/lib:/home/majd/autominy/catkin_ws/install/road_marking_localization/lib:/home/majd/autominy/catkin_ws/install/remote_control/lib:/home/majd/autominy/catkin_ws/install/odometry/lib:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/lib:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/hardware_calibration/lib:/home/majd/autominy/catkin_ws/install/emergency_stop/lib:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/lib:/home/majd/autominy/catkin_ws/install/autominy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/majd'), ('OLDPWD', '/home/majd/Documents/Robotik/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '2317'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'majd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'majd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/arduino_communication/bin:/home/majd/autominy/catkin_ws/install/road_marking_localization/bin:/home/majd/autominy/catkin_ws/install/remote_control/bin:/home/majd/autominy/catkin_ws/install/odometry/bin:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/bin:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/hardware_calibration/bin:/home/majd/autominy/catkin_ws/install/emergency_stop/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/majd-HP-ProBook-440-G5:@/tmp/.ICE-unix/2279,unix/majd-HP-ProBook-440-G5:/tmp/.ICE-unix/2279'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b406f0fb_7dfd_4e7d_a14d_298f8ac2a7f0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EV3ZU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.940'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '27'), ('AMENT_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/local/lib/python3.10/dist-packages:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages:/home/majd/autominy/catkin_ws/install/autominy_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble')]), 'shell': False}
+[4.470038] (-) TimerEvent: {}
+[4.572440] (-) TimerEvent: {}
+[4.674650] (-) TimerEvent: {}
+[4.689963] (assignment2_publisher_subscriber2) CommandEnded: {'returncode': 0}
+[4.778617] (-) TimerEvent: {}
+[4.880168] (-) TimerEvent: {}
+[4.887838] (assignment2_publisher_subscriber2) JobProgress: {'identifier': 'assignment2_publisher_subscriber2', 'progress': 'install'}
+[4.932484] (assignment2_publisher_subscriber2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2'], 'cwd': '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'majd'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/sim_car_controller/lib:/home/majd/autominy/catkin_ws/install/serial/lib:/home/majd/autominy/catkin_ws/install/road_marking_localization/lib:/home/majd/autominy/catkin_ws/install/remote_control/lib:/home/majd/autominy/catkin_ws/install/odometry/lib:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/lib:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/hardware_calibration/lib:/home/majd/autominy/catkin_ws/install/emergency_stop/lib:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/lib:/home/majd/autominy/catkin_ws/install/autominy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/majd'), ('OLDPWD', '/home/majd/Documents/Robotik/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '2317'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'majd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'majd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/arduino_communication/bin:/home/majd/autominy/catkin_ws/install/road_marking_localization/bin:/home/majd/autominy/catkin_ws/install/remote_control/bin:/home/majd/autominy/catkin_ws/install/odometry/bin:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/bin:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/hardware_calibration/bin:/home/majd/autominy/catkin_ws/install/emergency_stop/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/majd-HP-ProBook-440-G5:@/tmp/.ICE-unix/2279,unix/majd-HP-ProBook-440-G5:/tmp/.ICE-unix/2279'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b406f0fb_7dfd_4e7d_a14d_298f8ac2a7f0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EV3ZU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.940'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '27'), ('AMENT_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/local/lib/python3.10/dist-packages:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages:/home/majd/autominy/catkin_ws/install/autominy_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble')]), 'shell': False}
+[4.978276] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.980578] (-) TimerEvent: {}
+[4.994625] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.995074] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/lib/assignment2_publisher_subscriber2/publisher.py\n'}
+[5.045967] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/lib/assignment2_publisher_subscriber2/subscriber.py\n'}
+[5.065113] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.082464] (-) TimerEvent: {}
+[5.114334] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/ament_index/resource_index/package_run_dependencies/assignment2_publisher_subscriber2\n'}
+[5.181507] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/ament_index/resource_index/parent_prefix_path/assignment2_publisher_subscriber2\n'}
+[5.185876] (-) TimerEvent: {}
+[5.201665] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/majd/Documents/Robotik/ros2_ws/install/py_pubsub', '--editable', '--build-directory', '/home/majd/Documents/Robotik/ros2_ws/build/py_pubsub/build', '--no-deps', 'install_data', '--install-dir', '/home/majd/Documents/Robotik/ros2_ws/install/py_pubsub'], 'cwd': '/home/majd/Documents/Robotik/ros2_ws/build/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'majd', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/sim_car_controller/lib:/home/majd/autominy/catkin_ws/install/serial/lib:/home/majd/autominy/catkin_ws/install/road_marking_localization/lib:/home/majd/autominy/catkin_ws/install/remote_control/lib:/home/majd/autominy/catkin_ws/install/odometry/lib:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/lib:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/hardware_calibration/lib:/home/majd/autominy/catkin_ws/install/emergency_stop/lib:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/lib:/home/majd/autominy/catkin_ws/install/autominy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/majd', 'OLDPWD': '/home/majd/Documents/Robotik/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '2317', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/majd/autominy/catkin_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'majd', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'majd', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/arduino_communication/bin:/home/majd/autominy/catkin_ws/install/road_marking_localization/bin:/home/majd/autominy/catkin_ws/install/remote_control/bin:/home/majd/autominy/catkin_ws/install/odometry/bin:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/bin:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/hardware_calibration/bin:/home/majd/autominy/catkin_ws/install/emergency_stop/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/majd-HP-ProBook-440-G5:@/tmp/.ICE-unix/2279,unix/majd-HP-ProBook-440-G5:/tmp/.ICE-unix/2279', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b406f0fb_7dfd_4e7d_a14d_298f8ac2a7f0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.EV3ZU1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.940', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '27', 'AMENT_PREFIX_PATH': '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/majd/Documents/Robotik/ros2_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/majd/Documents/Robotik/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/local/lib/python3.10/dist-packages:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages:/home/majd/autominy/catkin_ws/install/autominy_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy'}, 'shell': False}
+[5.214991] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/environment/ament_prefix_path.sh\n'}
+[5.226853] (assignment2_publisher_subscriber) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber', '--editable', '--build-directory', '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber/build', '--no-deps', 'install_data', '--install-dir', '/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber'], 'cwd': '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'majd', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/sim_car_controller/lib:/home/majd/autominy/catkin_ws/install/serial/lib:/home/majd/autominy/catkin_ws/install/road_marking_localization/lib:/home/majd/autominy/catkin_ws/install/remote_control/lib:/home/majd/autominy/catkin_ws/install/odometry/lib:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/lib:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/hardware_calibration/lib:/home/majd/autominy/catkin_ws/install/emergency_stop/lib:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/lib:/home/majd/autominy/catkin_ws/install/autominy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/majd', 'OLDPWD': '/home/majd/Documents/Robotik/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '2317', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/majd/autominy/catkin_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'majd', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'majd', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/arduino_communication/bin:/home/majd/autominy/catkin_ws/install/road_marking_localization/bin:/home/majd/autominy/catkin_ws/install/remote_control/bin:/home/majd/autominy/catkin_ws/install/odometry/bin:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/bin:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/hardware_calibration/bin:/home/majd/autominy/catkin_ws/install/emergency_stop/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/majd-HP-ProBook-440-G5:@/tmp/.ICE-unix/2279,unix/majd-HP-ProBook-440-G5:/tmp/.ICE-unix/2279', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b406f0fb_7dfd_4e7d_a14d_298f8ac2a7f0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.EV3ZU1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.940', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '27', 'AMENT_PREFIX_PATH': '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/local/lib/python3.10/dist-packages:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages:/home/majd/autominy/catkin_ws/install/autominy_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy'}, 'shell': False}
+[5.265208] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/environment/ament_prefix_path.dsv\n'}
+[5.286008] (-) TimerEvent: {}
+[5.300392] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.312537] (turtlesim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.365138] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/environment/path.sh\n'}
+[5.390122] (-) TimerEvent: {}
+[5.430642] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/environment/path.dsv\n'}
+[5.471203] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/local_setup.bash\n'}
+[5.494578] (-) TimerEvent: {}
+[5.508731] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/local_setup.sh\n'}
+[5.553612] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/local_setup.zsh\n'}
+[5.594683] (-) TimerEvent: {}
+[5.607333] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/local_setup.dsv\n'}
+[5.660152] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/package.dsv\n'}
+[5.694900] (-) TimerEvent: {}
+[5.741585] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/ament_index/resource_index/packages/assignment2_publisher_subscriber2\n'}
+[5.781023] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/cmake/assignment2_publisher_subscriber2Config.cmake\n'}
+[5.795486] (-) TimerEvent: {}
+[5.870685] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/cmake/assignment2_publisher_subscriber2Config-version.cmake\n'}
+[5.896264] (-) TimerEvent: {}
+[5.930617] (assignment2_publisher_subscriber2) StdoutLine: {'line': b'-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/package.xml\n'}
+[5.956460] (simple_drive_control) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.986607] (assignment2_publisher_subscriber2) CommandEnded: {'returncode': 0}
+[5.996352] (-) TimerEvent: {}
+[6.067017] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.096459] (-) TimerEvent: {}
+[6.199321] (-) TimerEvent: {}
+[6.288012] (assignment2_publisher_subscriber2) JobEnded: {'identifier': 'assignment2_publisher_subscriber2', 'rc': 0}
+[6.299462] (-) TimerEvent: {}
+[6.402549] (-) TimerEvent: {}
+[6.503411] (-) TimerEvent: {}
+[6.604196] (-) TimerEvent: {}
+[6.706716] (-) TimerEvent: {}
+[6.711734] (assignment2_publisher_subscriber) StdoutLine: {'line': b'running develop\n'}
+[6.720745] (assignment2_publisher_subscriber) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.721660] (assignment2_publisher_subscriber) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.725845] (assignment2_publisher_subscriber) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.726279] (assignment2_publisher_subscriber) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.741204] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.1 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[6.774330] (py_pubsub) StdoutLine: {'line': b'running develop\n'}
+[6.778145] (py_pubsub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.778655] (py_pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.782259] (py_pubsub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.782959] (py_pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.806986] (-) TimerEvent: {}
+[6.915697] (-) TimerEvent: {}
+[7.016230] (-) TimerEvent: {}
+[7.040829] (py_pubsub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[7.041207] (py_pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.041641] (assignment2_publisher_subscriber) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[7.042087] (assignment2_publisher_subscriber) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.043211] (py_pubsub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[7.043642] (py_pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.046437] (assignment2_publisher_subscriber) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[7.047313] (assignment2_publisher_subscriber) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.118213] (-) TimerEvent: {}
+[7.172821] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[7.218465] (-) TimerEvent: {}
+[7.224215] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 4.2.2 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[7.318565] (-) TimerEvent: {}
+[7.420257] (-) TimerEvent: {}
+[7.521256] (-) TimerEvent: {}
+[7.532619] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[7.532932] (py_pubsub) StdoutLine: {'line': b'writing py_pubsub.egg-info/PKG-INFO\n'}
+[7.533266] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to py_pubsub.egg-info/dependency_links.txt\n'}
+[7.533585] (py_pubsub) StdoutLine: {'line': b'writing entry points to py_pubsub.egg-info/entry_points.txt\n'}
+[7.533892] (py_pubsub) StdoutLine: {'line': b'writing requirements to py_pubsub.egg-info/requires.txt\n'}
+[7.538538] (py_pubsub) StdoutLine: {'line': b'writing top-level names to py_pubsub.egg-info/top_level.txt\n'}
+[7.542712] (py_pubsub) StdoutLine: {'line': b"reading manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[7.544402] (py_pubsub) StdoutLine: {'line': b"writing manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[7.554465] (py_pubsub) StdoutLine: {'line': b'running build_ext\n'}
+[7.554967] (py_pubsub) StdoutLine: {'line': b'Creating /home/majd/Documents/Robotik/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py-pubsub.egg-link (link to .)\n'}
+[7.556748] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/majd/Documents/Robotik/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[7.558826] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/majd/Documents/Robotik/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[7.559465] (py_pubsub) StdoutLine: {'line': b'\n'}
+[7.559793] (py_pubsub) StdoutLine: {'line': b'Installed /home/majd/Documents/Robotik/ros2_ws/build/py_pubsub\n'}
+[7.560182] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[7.591281] (assignment2_publisher_subscriber) StdoutLine: {'line': b'running egg_info\n'}
+[7.591866] (assignment2_publisher_subscriber) StdoutLine: {'line': b'writing assignment2_publisher_subscriber.egg-info/PKG-INFO\n'}
+[7.592603] (assignment2_publisher_subscriber) StdoutLine: {'line': b'writing dependency_links to assignment2_publisher_subscriber.egg-info/dependency_links.txt\n'}
+[7.593398] (assignment2_publisher_subscriber) StdoutLine: {'line': b'writing entry points to assignment2_publisher_subscriber.egg-info/entry_points.txt\n'}
+[7.593808] (assignment2_publisher_subscriber) StdoutLine: {'line': b'writing requirements to assignment2_publisher_subscriber.egg-info/requires.txt\n'}
+[7.595604] (assignment2_publisher_subscriber) StdoutLine: {'line': b'writing top-level names to assignment2_publisher_subscriber.egg-info/top_level.txt\n'}
+[7.604684] (assignment2_publisher_subscriber) StdoutLine: {'line': b"reading manifest file 'assignment2_publisher_subscriber.egg-info/SOURCES.txt'\n"}
+[7.608956] (assignment2_publisher_subscriber) StdoutLine: {'line': b"writing manifest file 'assignment2_publisher_subscriber.egg-info/SOURCES.txt'\n"}
+[7.616963] (assignment2_publisher_subscriber) StdoutLine: {'line': b'running build_ext\n'}
+[7.619733] (assignment2_publisher_subscriber) StdoutLine: {'line': b'Creating /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages/assignment2-publisher-subscriber.egg-link (link to .)\n'}
+[7.621394] (-) TimerEvent: {}
+[7.623664] (assignment2_publisher_subscriber) StdoutLine: {'line': b'Installing currentSpeed script to /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/assignment2_publisher_subscriber\n'}
+[7.624292] (assignment2_publisher_subscriber) StdoutLine: {'line': b'Installing drive script to /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/assignment2_publisher_subscriber\n'}
+[7.626342] (assignment2_publisher_subscriber) StdoutLine: {'line': b'\n'}
+[7.627200] (assignment2_publisher_subscriber) StdoutLine: {'line': b'Installed /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber\n'}
+[7.627849] (assignment2_publisher_subscriber) StdoutLine: {'line': b'running install_data\n'}
+[7.724263] (py_pubsub) CommandEnded: {'returncode': 0}
+[7.738814] (-) TimerEvent: {}
+[7.766230] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[7.775969] (assignment2_publisher_subscriber) CommandEnded: {'returncode': 0}
+[7.839355] (-) TimerEvent: {}
+[7.856317] (assignment2_publisher_subscriber) JobEnded: {'identifier': 'assignment2_publisher_subscriber', 'rc': 0}
+[7.939559] (-) TimerEvent: {}
+[7.970297] (simple_drive_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.040540] (-) TimerEvent: {}
+[8.141389] (-) TimerEvent: {}
+[8.243011] (-) TimerEvent: {}
+[8.343688] (-) TimerEvent: {}
+[8.444876] (-) TimerEvent: {}
+[8.546637] (-) TimerEvent: {}
+[8.647577] (-) TimerEvent: {}
+[8.750620] (-) TimerEvent: {}
+[8.780292] (simple_drive_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.850925] (-) TimerEvent: {}
+[8.900934] (simple_drive_control) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[8.917443] (simple_drive_control) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[8.951104] (-) TimerEvent: {}
+[9.003265] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[9.051323] (-) TimerEvent: {}
+[9.056553] (simple_drive_control) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[9.059227] (simple_drive_control) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.059627] (simple_drive_control) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[9.060288] (simple_drive_control) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[9.151453] (-) TimerEvent: {}
+[9.165174] (simple_drive_control) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[9.251566] (-) TimerEvent: {}
+[9.352124] (-) TimerEvent: {}
+[9.453066] (-) TimerEvent: {}
+[9.521087] (simple_drive_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.553191] (-) TimerEvent: {}
+[9.654679] (-) TimerEvent: {}
+[9.679564] (simple_drive_control) StdoutLine: {'line': b'-- Generating done\n'}
+[9.691013] (simple_drive_control) StdoutLine: {'line': b'-- Build files have been written to: /home/majd/Documents/Robotik/ros2_ws/build/simple_drive_control\n'}
+[9.724472] (simple_drive_control) CommandEnded: {'returncode': 0}
+[9.726662] (simple_drive_control) JobProgress: {'identifier': 'simple_drive_control', 'progress': 'build'}
+[9.729694] (simple_drive_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/majd/Documents/Robotik/ros2_ws/build/simple_drive_control', '--', '-j8', '-l8'], 'cwd': '/home/majd/Documents/Robotik/ros2_ws/build/simple_drive_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'majd'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/sim_car_controller/lib:/home/majd/autominy/catkin_ws/install/serial/lib:/home/majd/autominy/catkin_ws/install/road_marking_localization/lib:/home/majd/autominy/catkin_ws/install/remote_control/lib:/home/majd/autominy/catkin_ws/install/odometry/lib:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/lib:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/hardware_calibration/lib:/home/majd/autominy/catkin_ws/install/emergency_stop/lib:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/lib:/home/majd/autominy/catkin_ws/install/autominy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/majd'), ('OLDPWD', '/home/majd/Documents/Robotik/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '2317'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'majd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'majd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/arduino_communication/bin:/home/majd/autominy/catkin_ws/install/road_marking_localization/bin:/home/majd/autominy/catkin_ws/install/remote_control/bin:/home/majd/autominy/catkin_ws/install/odometry/bin:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/bin:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/hardware_calibration/bin:/home/majd/autominy/catkin_ws/install/emergency_stop/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/majd-HP-ProBook-440-G5:@/tmp/.ICE-unix/2279,unix/majd-HP-ProBook-440-G5:/tmp/.ICE-unix/2279'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b406f0fb_7dfd_4e7d_a14d_298f8ac2a7f0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EV3ZU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.940'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '27'), ('AMENT_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/majd/Documents/Robotik/ros2_ws/build/simple_drive_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/local/lib/python3.10/dist-packages:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages:/home/majd/autominy/catkin_ws/install/autominy_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble')]), 'shell': False}
+[9.754728] (-) TimerEvent: {}
+[9.860500] (-) TimerEvent: {}
+[9.962075] (-) TimerEvent: {}
+[9.963104] (simple_drive_control) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[10.063608] (-) TimerEvent: {}
+[10.164239] (-) TimerEvent: {}
+[10.265294] (-) TimerEvent: {}
+[10.366359] (-) TimerEvent: {}
+[10.468010] (-) TimerEvent: {}
+[10.568954] (-) TimerEvent: {}
+[10.670442] (-) TimerEvent: {}
+[10.723777] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.773763] (-) TimerEvent: {}
+[10.874358] (-) TimerEvent: {}
+[10.975300] (-) TimerEvent: {}
+[11.076226] (-) TimerEvent: {}
+[11.177383] (-) TimerEvent: {}
+[11.277951] (-) TimerEvent: {}
+[11.378682] (-) TimerEvent: {}
+[11.387860] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.478902] (-) TimerEvent: {}
+[11.494862] (simple_drive_control) StdoutLine: {'line': b'[  3%] Built target simple_drive_control__cpp\n'}
+[11.499540] (turtlesim) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[11.579696] (-) TimerEvent: {}
+[11.615066] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.615878] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[11.616667] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[11.617497] (simple_drive_control) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_symlink_simple_drive_control\n'}
+[11.665274] (simple_drive_control) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[11.679837] (-) TimerEvent: {}
+[11.780377] (-) TimerEvent: {}
+[11.881078] (-) TimerEvent: {}
+[11.945542] (turtlesim) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.981316] (-) TimerEvent: {}
+[12.083301] (-) TimerEvent: {}
+[12.184967] (-) TimerEvent: {}
+[12.285839] (-) TimerEvent: {}
+[12.356034] (turtlesim) StdoutLine: {'line': b'-- Generating done\n'}
+[12.376202] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /home/majd/Documents/Robotik/ros2_ws/build/turtlesim\n'}
+[12.385964] (-) TimerEvent: {}
+[12.437726] (turtlesim) CommandEnded: {'returncode': 0}
+[12.439458] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[12.439843] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/majd/Documents/Robotik/ros2_ws/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/majd/Documents/Robotik/ros2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'majd'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/sim_car_controller/lib:/home/majd/autominy/catkin_ws/install/serial/lib:/home/majd/autominy/catkin_ws/install/road_marking_localization/lib:/home/majd/autominy/catkin_ws/install/remote_control/lib:/home/majd/autominy/catkin_ws/install/odometry/lib:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/lib:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/lib:/home/majd/autominy/catkin_ws/install/hardware_calibration/lib:/home/majd/autominy/catkin_ws/install/emergency_stop/lib:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/lib:/home/majd/autominy/catkin_ws/install/autominy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/majd'), ('OLDPWD', '/home/majd/Documents/Robotik/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '2317'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'majd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'majd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/arduino_communication/bin:/home/majd/autominy/catkin_ws/install/road_marking_localization/bin:/home/majd/autominy/catkin_ws/install/remote_control/bin:/home/majd/autominy/catkin_ws/install/odometry/bin:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown/bin:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation/bin:/home/majd/autominy/catkin_ws/install/hardware_calibration/bin:/home/majd/autominy/catkin_ws/install/emergency_stop/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/majd-HP-ProBook-440-G5:@/tmp/.ICE-unix/2279,unix/majd-HP-ProBook-440-G5:/tmp/.ICE-unix/2279'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b406f0fb_7dfd_4e7d_a14d_298f8ac2a7f0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EV3ZU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.940'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '27'), ('AMENT_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/majd/Documents/Robotik/ros2_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs/local/lib/python3.10/dist-packages:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages:/home/majd/autominy/catkin_ws/install/autominy_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble')]), 'shell': False}
+[12.486993] (-) TimerEvent: {}
+[12.587766] (-) TimerEvent: {}
+[12.688360] (-) TimerEvent: {}
+[12.722700] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[12.788617] (-) TimerEvent: {}
+[12.814507] (turtlesim) StderrLine: {'line': b"failed to create symbolic link '/home/majd/Documents/Robotik/ros2_ws/build/turtlesim/ament_cmake_python/turtlesim/turtlesim' because existing path cannot be removed: Is a directory\n"}
+[12.814973] (turtlesim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_turtlesim.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_turtlesim] Error 1\n'}
+[12.815219] (turtlesim) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:429: CMakeFiles/ament_cmake_python_symlink_turtlesim.dir/all] Error 2\n'}
+[12.815414] (turtlesim) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.821106] (turtlesim) CommandEnded: {'returncode': 2}
+[12.888812] (-) TimerEvent: {}
+[12.989547] (-) TimerEvent: {}
+[13.042450] (simple_drive_control) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/simple_drive_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/simple_drive_control/srv/detail/driving_maneuver__type_support.cpp.o\x1b[0m\n'}
+[13.089963] (-) TimerEvent: {}
+[13.191917] (-) TimerEvent: {}
+[13.292729] (-) TimerEvent: {}
+[13.395397] (-) TimerEvent: {}
+[13.497215] (-) TimerEvent: {}
+[13.600596] (-) TimerEvent: {}
+[13.701865] (-) TimerEvent: {}
+[13.803042] (-) TimerEvent: {}
+[13.903773] (-) TimerEvent: {}
+[14.004599] (-) TimerEvent: {}
+[14.106003] (-) TimerEvent: {}
+[14.207540] (-) TimerEvent: {}
+[14.247424] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 2}
+[14.307686] (-) TimerEvent: {}
+[14.408695] (-) TimerEvent: {}
+[14.509477] (-) TimerEvent: {}
+[14.610783] (-) TimerEvent: {}
+[14.712039] (-) TimerEvent: {}
+[14.812789] (-) TimerEvent: {}
+[14.922551] (-) TimerEvent: {}
+[14.969315] (simple_drive_control) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library libsimple_drive_control__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[15.022771] (-) TimerEvent: {}
+[15.123388] (-) TimerEvent: {}
+[15.224347] (-) TimerEvent: {}
+[15.270415] (simple_drive_control) StdoutLine: {'line': b'[ 12%] Built target simple_drive_control__rosidl_typesupport_introspection_cpp\n'}
+[15.324703] (-) TimerEvent: {}
+[15.425667] (-) TimerEvent: {}
+[15.527097] (-) TimerEvent: {}
+[15.628060] (-) TimerEvent: {}
+[15.728925] (-) TimerEvent: {}
+[15.829466] (-) TimerEvent: {}
+[15.930254] (-) TimerEvent: {}
+[16.031496] (-) TimerEvent: {}
+[16.132067] (-) TimerEvent: {}
+[16.233452] (-) TimerEvent: {}
+[16.334657] (-) TimerEvent: {}
+[16.435432] (-) TimerEvent: {}
+[16.522953] (simple_drive_control) StdoutLine: {'line': b'running egg_info\n'}
+[16.525576] (simple_drive_control) StdoutLine: {'line': b'creating simple_drive_control.egg-info\n'}
+[16.526047] (simple_drive_control) StdoutLine: {'line': b'writing simple_drive_control.egg-info/PKG-INFO\n'}
+[16.526541] (simple_drive_control) StdoutLine: {'line': b'writing dependency_links to simple_drive_control.egg-info/dependency_links.txt\n'}
+[16.527196] (simple_drive_control) StdoutLine: {'line': b'writing top-level names to simple_drive_control.egg-info/top_level.txt\n'}
+[16.528637] (simple_drive_control) StdoutLine: {'line': b"writing manifest file 'simple_drive_control.egg-info/SOURCES.txt'\n"}
+[16.535582] (-) TimerEvent: {}
+[16.537908] (simple_drive_control) StdoutLine: {'line': b"reading manifest file 'simple_drive_control.egg-info/SOURCES.txt'\n"}
+[16.540696] (simple_drive_control) StdoutLine: {'line': b"writing manifest file 'simple_drive_control.egg-info/SOURCES.txt'\n"}
+[16.635717] (-) TimerEvent: {}
+[16.685644] (simple_drive_control) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_build_simple_drive_control_egg\n'}
+[16.729273] (simple_drive_control) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[16.736106] (-) TimerEvent: {}
+[16.837230] (-) TimerEvent: {}
+[16.938098] (-) TimerEvent: {}
+[17.038955] (-) TimerEvent: {}
+[17.139704] (-) TimerEvent: {}
+[17.240322] (-) TimerEvent: {}
+[17.340848] (-) TimerEvent: {}
+[17.441447] (-) TimerEvent: {}
+[17.542452] (-) TimerEvent: {}
+[17.643218] (-) TimerEvent: {}
+[17.743929] (-) TimerEvent: {}
+[17.844650] (-) TimerEvent: {}
+[17.945488] (-) TimerEvent: {}
+[18.046252] (-) TimerEvent: {}
+[18.147726] (-) TimerEvent: {}
+[18.148356] (simple_drive_control) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/simple_drive_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/simple_drive_control/srv/detail/dds_fastrtps/driving_maneuver__type_support.cpp.o\x1b[0m\n'}
+[18.247918] (-) TimerEvent: {}
+[18.348677] (-) TimerEvent: {}
+[18.449339] (-) TimerEvent: {}
+[18.550250] (-) TimerEvent: {}
+[18.650937] (-) TimerEvent: {}
+[18.752137] (-) TimerEvent: {}
+[18.852685] (-) TimerEvent: {}
+[18.953471] (-) TimerEvent: {}
+[19.054262] (-) TimerEvent: {}
+[19.155022] (-) TimerEvent: {}
+[19.255750] (-) TimerEvent: {}
+[19.356320] (-) TimerEvent: {}
+[19.457090] (-) TimerEvent: {}
+[19.557635] (-) TimerEvent: {}
+[19.658759] (-) TimerEvent: {}
+[19.759490] (-) TimerEvent: {}
+[19.861587] (-) TimerEvent: {}
+[19.963902] (-) TimerEvent: {}
+[20.064688] (-) TimerEvent: {}
+[20.124016] (simple_drive_control) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX shared library libsimple_drive_control__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[20.165190] (-) TimerEvent: {}
+[20.266757] (-) TimerEvent: {}
+[20.368020] (-) TimerEvent: {}
+[20.468937] (-) TimerEvent: {}
+[20.479435] (simple_drive_control) StdoutLine: {'line': b'[ 22%] Built target simple_drive_control__rosidl_typesupport_fastrtps_cpp\n'}
+[20.524669] (simple_drive_control) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[20.569092] (-) TimerEvent: {}
+[20.670645] (-) TimerEvent: {}
+[20.771184] (-) TimerEvent: {}
+[20.871788] (-) TimerEvent: {}
+[20.972253] (-) TimerEvent: {}
+[21.072775] (-) TimerEvent: {}
+[21.173520] (-) TimerEvent: {}
+[21.274342] (-) TimerEvent: {}
+[21.375588] (-) TimerEvent: {}
+[21.476245] (-) TimerEvent: {}
+[21.576889] (-) TimerEvent: {}
+[21.677871] (-) TimerEvent: {}
+[21.755043] (simple_drive_control) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/simple_drive_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/simple_drive_control/srv/driving_maneuver__type_support.cpp.o\x1b[0m\n'}
+[21.778107] (-) TimerEvent: {}
+[21.879065] (-) TimerEvent: {}
+[21.980357] (-) TimerEvent: {}
+[22.080873] (-) TimerEvent: {}
+[22.181841] (-) TimerEvent: {}
+[22.283023] (-) TimerEvent: {}
+[22.383761] (-) TimerEvent: {}
+[22.484340] (-) TimerEvent: {}
+[22.585228] (-) TimerEvent: {}
+[22.685871] (-) TimerEvent: {}
+[22.786463] (-) TimerEvent: {}
+[22.887372] (-) TimerEvent: {}
+[22.988137] (-) TimerEvent: {}
+[23.071192] (simple_drive_control) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library libsimple_drive_control__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[23.088378] (-) TimerEvent: {}
+[23.189044] (-) TimerEvent: {}
+[23.253347] (simple_drive_control) StdoutLine: {'line': b'[ 32%] Built target simple_drive_control__rosidl_typesupport_cpp\n'}
+[23.289170] (-) TimerEvent: {}
+[23.298716] (simple_drive_control) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[23.389313] (-) TimerEvent: {}
+[23.490001] (-) TimerEvent: {}
+[23.591324] (-) TimerEvent: {}
+[23.692195] (-) TimerEvent: {}
+[23.793454] (-) TimerEvent: {}
+[23.894215] (-) TimerEvent: {}
+[23.995007] (-) TimerEvent: {}
+[24.095769] (-) TimerEvent: {}
+[24.196379] (-) TimerEvent: {}
+[24.297125] (-) TimerEvent: {}
+[24.397950] (-) TimerEvent: {}
+[24.499227] (-) TimerEvent: {}
+[24.599766] (-) TimerEvent: {}
+[24.700561] (-) TimerEvent: {}
+[24.801114] (-) TimerEvent: {}
+[24.902491] (-) TimerEvent: {}
+[24.903970] (simple_drive_control) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/simple_drive_control__rosidl_generator_c.dir/rosidl_generator_c/simple_drive_control/srv/detail/driving_maneuver__functions.c.o\x1b[0m\n'}
+[25.002604] (-) TimerEvent: {}
+[25.103894] (-) TimerEvent: {}
+[25.166305] (simple_drive_control) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libsimple_drive_control__rosidl_generator_c.so\x1b[0m\n'}
+[25.204075] (-) TimerEvent: {}
+[25.304890] (-) TimerEvent: {}
+[25.334824] (simple_drive_control) StdoutLine: {'line': b'[ 41%] Built target simple_drive_control__rosidl_generator_c\n'}
+[25.376056] (simple_drive_control) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[25.405108] (-) TimerEvent: {}
+[25.505983] (-) TimerEvent: {}
+[25.607046] (-) TimerEvent: {}
+[25.707858] (-) TimerEvent: {}
+[25.808476] (-) TimerEvent: {}
+[25.909307] (-) TimerEvent: {}
+[26.010295] (-) TimerEvent: {}
+[26.111033] (-) TimerEvent: {}
+[26.212323] (-) TimerEvent: {}
+[26.313119] (-) TimerEvent: {}
+[26.413559] (-) TimerEvent: {}
+[26.514021] (-) TimerEvent: {}
+[26.614803] (-) TimerEvent: {}
+[26.715845] (-) TimerEvent: {}
+[26.758840] (simple_drive_control) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/simple_drive_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/simple_drive_control/srv/detail/driving_maneuver__type_support_c.cpp.o\x1b[0m\n'}
+[26.815925] (-) TimerEvent: {}
+[26.917046] (-) TimerEvent: {}
+[27.017876] (-) TimerEvent: {}
+[27.118733] (-) TimerEvent: {}
+[27.219585] (-) TimerEvent: {}
+[27.320434] (-) TimerEvent: {}
+[27.421008] (-) TimerEvent: {}
+[27.521726] (-) TimerEvent: {}
+[27.622508] (-) TimerEvent: {}
+[27.723417] (-) TimerEvent: {}
+[27.824458] (-) TimerEvent: {}
+[27.925073] (-) TimerEvent: {}
+[28.025901] (-) TimerEvent: {}
+[28.126575] (-) TimerEvent: {}
+[28.227105] (-) TimerEvent: {}
+[28.327954] (-) TimerEvent: {}
+[28.429333] (-) TimerEvent: {}
+[28.523455] (simple_drive_control) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libsimple_drive_control__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[28.529544] (-) TimerEvent: {}
+[28.630308] (-) TimerEvent: {}
+[28.731236] (-) TimerEvent: {}
+[28.832464] (-) TimerEvent: {}
+[28.877615] (simple_drive_control) StdoutLine: {'line': b'[ 51%] Built target simple_drive_control__rosidl_typesupport_fastrtps_c\n'}
+[28.917684] (simple_drive_control) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[28.932541] (-) TimerEvent: {}
+[29.033770] (-) TimerEvent: {}
+[29.135092] (-) TimerEvent: {}
+[29.235640] (-) TimerEvent: {}
+[29.336377] (-) TimerEvent: {}
+[29.437386] (-) TimerEvent: {}
+[29.538632] (-) TimerEvent: {}
+[29.639439] (-) TimerEvent: {}
+[29.740632] (-) TimerEvent: {}
+[29.841227] (-) TimerEvent: {}
+[29.942224] (-) TimerEvent: {}
+[30.043165] (-) TimerEvent: {}
+[30.143805] (-) TimerEvent: {}
+[30.187306] (simple_drive_control) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/simple_drive_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/simple_drive_control/srv/driving_maneuver__type_support.cpp.o\x1b[0m\n'}
+[30.243901] (-) TimerEvent: {}
+[30.338490] (simple_drive_control) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libsimple_drive_control__rosidl_typesupport_c.so\x1b[0m\n'}
+[30.346710] (-) TimerEvent: {}
+[30.447411] (-) TimerEvent: {}
+[30.523203] (simple_drive_control) StdoutLine: {'line': b'[ 61%] Built target simple_drive_control__rosidl_typesupport_c\n'}
+[30.547648] (-) TimerEvent: {}
+[30.566251] (simple_drive_control) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[30.647964] (-) TimerEvent: {}
+[30.749304] (-) TimerEvent: {}
+[30.850147] (-) TimerEvent: {}
+[30.951198] (-) TimerEvent: {}
+[31.052049] (-) TimerEvent: {}
+[31.152696] (-) TimerEvent: {}
+[31.253412] (-) TimerEvent: {}
+[31.354685] (-) TimerEvent: {}
+[31.455259] (-) TimerEvent: {}
+[31.555955] (-) TimerEvent: {}
+[31.657263] (-) TimerEvent: {}
+[31.757979] (-) TimerEvent: {}
+[31.858775] (-) TimerEvent: {}
+[31.959917] (-) TimerEvent: {}
+[31.975071] (simple_drive_control) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/simple_drive_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/simple_drive_control/srv/detail/driving_maneuver__type_support.c.o\x1b[0m\n'}
+[32.060089] (-) TimerEvent: {}
+[32.132829] (simple_drive_control) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libsimple_drive_control__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[32.160357] (-) TimerEvent: {}
+[32.261660] (-) TimerEvent: {}
+[32.269547] (simple_drive_control) StdoutLine: {'line': b'[ 70%] Built target simple_drive_control__rosidl_typesupport_introspection_c\n'}
+[32.361783] (-) TimerEvent: {}
+[32.370738] (simple_drive_control) StdoutLine: {'line': b'[ 70%] Built target simple_drive_control\n'}
+[32.461968] (-) TimerEvent: {}
+[32.464750] (simple_drive_control) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[32.562136] (-) TimerEvent: {}
+[32.662896] (-) TimerEvent: {}
+[32.763515] (-) TimerEvent: {}
+[32.864155] (-) TimerEvent: {}
+[32.964662] (-) TimerEvent: {}
+[33.065496] (-) TimerEvent: {}
+[33.166768] (-) TimerEvent: {}
+[33.267428] (-) TimerEvent: {}
+[33.367908] (-) TimerEvent: {}
+[33.468606] (-) TimerEvent: {}
+[33.569838] (-) TimerEvent: {}
+[33.670887] (-) TimerEvent: {}
+[33.771312] (-) TimerEvent: {}
+[33.872124] (-) TimerEvent: {}
+[33.973124] (-) TimerEvent: {}
+[34.073743] (-) TimerEvent: {}
+[34.174642] (-) TimerEvent: {}
+[34.275345] (-) TimerEvent: {}
+[34.375880] (-) TimerEvent: {}
+[34.476609] (-) TimerEvent: {}
+[34.577436] (-) TimerEvent: {}
+[34.679019] (-) TimerEvent: {}
+[34.779933] (-) TimerEvent: {}
+[34.880831] (-) TimerEvent: {}
+[34.928103] (simple_drive_control) StdoutLine: {'line': b'[ 74%] Built target simple_drive_control__py\n'}
+[34.980934] (-) TimerEvent: {}
+[35.011865] (simple_drive_control) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/simple_drive_control__rosidl_generator_py.dir/rosidl_generator_py/simple_drive_control/srv/_driving_maneuver_s.c.o\x1b[0m\n'}
+[35.081207] (-) TimerEvent: {}
+[35.182881] (-) TimerEvent: {}
+[35.283488] (-) TimerEvent: {}
+[35.384291] (-) TimerEvent: {}
+[35.485613] (-) TimerEvent: {}
+[35.514361] (simple_drive_control) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/simple_drive_control/libsimple_drive_control__rosidl_generator_py.so\x1b[0m\n'}
+[35.585765] (-) TimerEvent: {}
+[35.686582] (-) TimerEvent: {}
+[35.735177] (simple_drive_control) StdoutLine: {'line': b'[ 80%] Built target simple_drive_control__rosidl_generator_py\n'}
+[35.786985] (-) TimerEvent: {}
+[35.835953] (simple_drive_control) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/simple_drive_control__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/simple_drive_control/_simple_drive_control_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[35.887160] (-) TimerEvent: {}
+[35.987892] (-) TimerEvent: {}
+[36.088431] (-) TimerEvent: {}
+[36.189179] (-) TimerEvent: {}
+[36.289909] (-) TimerEvent: {}
+[36.317834] (simple_drive_control) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/simple_drive_control/simple_drive_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[36.390186] (-) TimerEvent: {}
+[36.491052] (-) TimerEvent: {}
+[36.499739] (simple_drive_control) StdoutLine: {'line': b'[ 87%] Built target simple_drive_control__rosidl_typesupport_fastrtps_c__pyext\n'}
+[36.591158] (-) TimerEvent: {}
+[36.599934] (simple_drive_control) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/simple_drive_control__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/simple_drive_control/_simple_drive_control_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[36.691377] (-) TimerEvent: {}
+[36.792199] (-) TimerEvent: {}
+[36.893820] (-) TimerEvent: {}
+[36.994615] (-) TimerEvent: {}
+[37.058127] (simple_drive_control) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/simple_drive_control/simple_drive_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[37.094707] (-) TimerEvent: {}
+[37.195492] (-) TimerEvent: {}
+[37.247817] (simple_drive_control) StdoutLine: {'line': b'[ 93%] Built target simple_drive_control__rosidl_typesupport_c__pyext\n'}
+[37.295938] (-) TimerEvent: {}
+[37.345764] (simple_drive_control) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/simple_drive_control__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/simple_drive_control/_simple_drive_control_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[37.396093] (-) TimerEvent: {}
+[37.496909] (-) TimerEvent: {}
+[37.598184] (-) TimerEvent: {}
+[37.698999] (-) TimerEvent: {}
+[37.800112] (-) TimerEvent: {}
+[37.810362] (simple_drive_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/simple_drive_control/simple_drive_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[37.900219] (-) TimerEvent: {}
+[37.998319] (simple_drive_control) StdoutLine: {'line': b'[100%] Built target simple_drive_control__rosidl_typesupport_introspection_c__pyext\n'}
+[38.000465] (-) TimerEvent: {}
+[38.047318] (simple_drive_control) JobEnded: {'identifier': 'simple_drive_control', 'rc': 'SIGINT'}
+[38.059805] (simple_parking_maneuver) JobSkipped: {'identifier': 'simple_parking_maneuver'}
+[38.060377] (-) EventReactorShutdown: {}

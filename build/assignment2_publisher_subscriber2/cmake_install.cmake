@@ -43,70 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/assignment2_publisher_subscriber2" TYPE PROGRAM FILES "/home/majd/Documents/Robotik/ros2_ws/src/assignment2_publisher_subscriber2/src/publisher.py")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/assignment2_publisher_subscriber2" TYPE PROGRAM FILES "/home/majd/Documents/Robotik/ros2_ws/src/assignment2_publisher_subscriber2/src/subscriber.py")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/assignment2_publisher_subscriber2")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/assignment2_publisher_subscriber2")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_publisher_subscriber2/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_publisher_subscriber2/environment" TYPE FILE FILES "/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_publisher_subscriber2/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_publisher_subscriber2/environment" TYPE FILE FILES "/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_publisher_subscriber2" TYPE FILE FILES "/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_publisher_subscriber2" TYPE FILE FILES "/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_publisher_subscriber2" TYPE FILE FILES "/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_publisher_subscriber2" TYPE FILE FILES "/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_publisher_subscriber2" TYPE FILE FILES "/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/ament_cmake_index/share/ament_index/resource_index/packages/assignment2_publisher_subscriber2")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_publisher_subscriber2/cmake" TYPE FILE FILES
-    "/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/ament_cmake_core/assignment2_publisher_subscriber2Config.cmake"
-    "/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/ament_cmake_core/assignment2_publisher_subscriber2Config-version.cmake"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_publisher_subscriber2" TYPE FILE FILES "/home/majd/Documents/Robotik/ros2_ws/src/assignment2_publisher_subscriber2/package.xml")
+  include("/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

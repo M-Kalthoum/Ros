@@ -1,0 +1,26 @@
+[3.344s] Invoking command in '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber': PYTHONPATH=/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber --editable --build-directory /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber/build --no-deps install_data --install-dir /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber
+[4.935s] running develop
+[4.936s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.937s]   warnings.warn(
+[4.943s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.944s]   warnings.warn(
+[5.271s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[5.272s]   warnings.warn(
+[5.273s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[5.273s]   warnings.warn(
+[5.928s] running egg_info
+[5.928s] writing assignment2_publisher_subscriber.egg-info/PKG-INFO
+[5.929s] writing dependency_links to assignment2_publisher_subscriber.egg-info/dependency_links.txt
+[5.930s] writing entry points to assignment2_publisher_subscriber.egg-info/entry_points.txt
+[5.932s] writing requirements to assignment2_publisher_subscriber.egg-info/requires.txt
+[5.933s] writing top-level names to assignment2_publisher_subscriber.egg-info/top_level.txt
+[5.937s] reading manifest file 'assignment2_publisher_subscriber.egg-info/SOURCES.txt'
+[5.940s] writing manifest file 'assignment2_publisher_subscriber.egg-info/SOURCES.txt'
+[5.944s] running build_ext
+[5.946s] Creating /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages/assignment2-publisher-subscriber.egg-link (link to .)
+[5.949s] Installing currentSpeed script to /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/assignment2_publisher_subscriber
+[5.951s] Installing drive script to /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/assignment2_publisher_subscriber
+[5.952s] 
+[5.952s] Installed /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber
+[5.953s] running install_data
+[6.134s] Invoked command in '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber' returned '0': PYTHONPATH=/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber --editable --build-directory /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber/build --no-deps install_data --install-dir /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber

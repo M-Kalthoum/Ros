@@ -1,0 +1,4 @@
+source;share/simple_parking_maneuver/environment/ament_prefix_path.sh
+source;share/simple_parking_maneuver/environment/library_path.sh
+source;share/simple_parking_maneuver/environment/path.sh
+source;share/simple_parking_maneuver/environment/pythonpath.sh

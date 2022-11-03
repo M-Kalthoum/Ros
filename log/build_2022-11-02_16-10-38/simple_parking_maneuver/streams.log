@@ -1,0 +1,204 @@
+[0.085s] Invoking command in '/home/majd/Documents/Robotik/ros2_ws/build/simple_parking_maneuver': AMENT_PREFIX_PATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control:/home/majd/Documents/Robotik/ros2_ws/install/turtlesim:/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2:/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber:/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/home/majd/Documents/Robotik/ros2_ws/install/py_pubsub:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble LD_LIBRARY_PATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/majd/Documents/Robotik/ros2_ws/src/simple_parking_maneuver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver
+[0.426s] -- The C compiler identification is GNU 11.3.0
+[0.776s] -- The CXX compiler identification is GNU 11.3.0
+[0.821s] -- Detecting C compiler ABI info
+[1.211s] -- Detecting C compiler ABI info - done
+[1.274s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.275s] -- Detecting C compile features
+[1.278s] -- Detecting C compile features - done
+[1.298s] -- Detecting CXX compiler ABI info
+[1.807s] -- Detecting CXX compiler ABI info - done
+[1.867s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.869s] -- Detecting CXX compile features
+[1.872s] -- Detecting CXX compile features - done
+[1.896s] -- Found rclpy: 3.3.4 (/opt/ros/humble/share/rclpy/cmake)
+[1.918s] -- Found std_msgs: 4.2.2 (/opt/ros/humble/share/std_msgs/cmake)
+[3.416s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[3.954s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.828s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.904s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.007s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.171s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.389s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.941s] -- Found simple_drive_control: 0.0.1 (/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake)
+[6.281s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[8.162s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[10.288s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.066s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.186s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[11.202s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.348s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[11.350s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.350s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.352s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[11.466s] -- Found PythonExtra: .so  
+[11.839s] -- Configuring done
+[11.993s] -- Generating done
+[12.006s] -- Build files have been written to: /home/majd/Documents/Robotik/ros2_ws/build/simple_parking_maneuver
+[12.043s] Invoked command in '/home/majd/Documents/Robotik/ros2_ws/build/simple_parking_maneuver' returned '0': AMENT_PREFIX_PATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control:/home/majd/Documents/Robotik/ros2_ws/install/turtlesim:/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2:/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber:/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/home/majd/Documents/Robotik/ros2_ws/install/py_pubsub:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble LD_LIBRARY_PATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/majd/Documents/Robotik/ros2_ws/src/simple_parking_maneuver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver
+[12.047s] Invoking command in '/home/majd/Documents/Robotik/ros2_ws/build/simple_parking_maneuver': AMENT_PREFIX_PATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control:/home/majd/Documents/Robotik/ros2_ws/install/turtlesim:/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2:/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber:/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/home/majd/Documents/Robotik/ros2_ws/install/py_pubsub:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble LD_LIBRARY_PATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/majd/Documents/Robotik/ros2_ws/build/simple_parking_maneuver -- -j8 -l8
+[12.264s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[13.762s] [  3%] Built target simple_parking_maneuver__cpp
+[13.891s] [  3%] Built target ament_cmake_python_symlink_simple_parking_maneuver
+[13.942s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[15.296s] [  9%] [32mBuilding CXX object CMakeFiles/simple_parking_maneuver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/simple_parking_maneuver/srv/detail/parking_maneuver__type_support.cpp.o[0m
+[17.199s] [ 12%] [32m[1mLinking CXX shared library libsimple_parking_maneuver__rosidl_typesupport_introspection_cpp.so[0m
+[17.519s] [ 12%] Built target simple_parking_maneuver__rosidl_typesupport_introspection_cpp
+[18.871s] running egg_info
+[18.875s] creating simple_parking_maneuver.egg-info
+[18.877s] writing simple_parking_maneuver.egg-info/PKG-INFO
+[18.877s] writing dependency_links to simple_parking_maneuver.egg-info/dependency_links.txt
+[18.878s] writing top-level names to simple_parking_maneuver.egg-info/top_level.txt
+[18.879s] writing manifest file 'simple_parking_maneuver.egg-info/SOURCES.txt'
+[18.891s] reading manifest file 'simple_parking_maneuver.egg-info/SOURCES.txt'
+[18.894s] writing manifest file 'simple_parking_maneuver.egg-info/SOURCES.txt'
+[19.043s] [ 12%] Built target ament_cmake_python_build_simple_parking_maneuver_egg
+[19.095s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[20.494s] [ 19%] [32mBuilding CXX object CMakeFiles/simple_parking_maneuver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/simple_parking_maneuver/srv/detail/dds_fastrtps/parking_maneuver__type_support.cpp.o[0m
+[22.483s] [ 22%] [32m[1mLinking CXX shared library libsimple_parking_maneuver__rosidl_typesupport_fastrtps_cpp.so[0m
+[22.841s] [ 22%] Built target simple_parking_maneuver__rosidl_typesupport_fastrtps_cpp
+[22.883s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[24.133s] [ 29%] [32mBuilding CXX object CMakeFiles/simple_parking_maneuver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/simple_parking_maneuver/srv/parking_maneuver__type_support.cpp.o[0m
+[25.447s] [ 32%] [32m[1mLinking CXX shared library libsimple_parking_maneuver__rosidl_typesupport_cpp.so[0m
+[25.650s] [ 32%] Built target simple_parking_maneuver__rosidl_typesupport_cpp
+[25.695s] [ 35%] [34m[1mGenerating C code for ROS interfaces[0m
+[27.283s] [ 38%] [32mBuilding C object CMakeFiles/simple_parking_maneuver__rosidl_generator_c.dir/rosidl_generator_c/simple_parking_maneuver/srv/detail/parking_maneuver__functions.c.o[0m
+[27.528s] [ 41%] [32m[1mLinking C shared library libsimple_parking_maneuver__rosidl_generator_c.so[0m
+[27.711s] [ 41%] Built target simple_parking_maneuver__rosidl_generator_c
+[27.757s] [ 45%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[29.170s] [ 48%] [32mBuilding CXX object CMakeFiles/simple_parking_maneuver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/simple_parking_maneuver/srv/detail/parking_maneuver__type_support_c.cpp.o[0m
+[30.823s] [ 51%] [32m[1mLinking CXX shared library libsimple_parking_maneuver__rosidl_typesupport_fastrtps_c.so[0m
+[31.193s] [ 51%] Built target simple_parking_maneuver__rosidl_typesupport_fastrtps_c
+[31.243s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[32.530s] [ 58%] [32mBuilding CXX object CMakeFiles/simple_parking_maneuver__rosidl_typesupport_c.dir/rosidl_typesupport_c/simple_parking_maneuver/srv/parking_maneuver__type_support.cpp.o[0m
+[32.669s] [ 61%] [32m[1mLinking CXX shared library libsimple_parking_maneuver__rosidl_typesupport_c.so[0m
+[32.866s] [ 61%] Built target simple_parking_maneuver__rosidl_typesupport_c
+[32.921s] [ 64%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[34.397s] [ 67%] [32mBuilding C object CMakeFiles/simple_parking_maneuver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/simple_parking_maneuver/srv/detail/parking_maneuver__type_support.c.o[0m
+[34.564s] [ 70%] [32m[1mLinking C shared library libsimple_parking_maneuver__rosidl_typesupport_introspection_c.so[0m
+[34.713s] [ 70%] Built target simple_parking_maneuver__rosidl_typesupport_introspection_c
+[34.812s] [ 70%] Built target simple_parking_maneuver
+[34.907s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[37.515s] [ 74%] Built target simple_parking_maneuver__py
+[37.634s] [ 77%] [32mBuilding C object CMakeFiles/simple_parking_maneuver__rosidl_generator_py.dir/rosidl_generator_py/simple_parking_maneuver/srv/_parking_maneuver_s.c.o[0m
+[38.186s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/simple_parking_maneuver/libsimple_parking_maneuver__rosidl_generator_py.so[0m
+[38.406s] [ 80%] Built target simple_parking_maneuver__rosidl_generator_py
+[38.518s] [ 83%] [32mBuilding C object CMakeFiles/simple_parking_maneuver__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/simple_parking_maneuver/_simple_parking_maneuver_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[39.071s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/simple_parking_maneuver/simple_parking_maneuver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[39.283s] [ 87%] Built target simple_parking_maneuver__rosidl_typesupport_fastrtps_c__pyext
+[39.388s] [ 90%] [32mBuilding C object CMakeFiles/simple_parking_maneuver__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/simple_parking_maneuver/_simple_parking_maneuver_s.ep.rosidl_typesupport_c.c.o[0m
+[39.916s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/simple_parking_maneuver/simple_parking_maneuver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[40.138s] [ 93%] Built target simple_parking_maneuver__rosidl_typesupport_c__pyext
+[40.240s] [ 96%] [32mBuilding C object CMakeFiles/simple_parking_maneuver__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/simple_parking_maneuver/_simple_parking_maneuver_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[40.748s] [100%] [32m[1mLinking C shared library rosidl_generator_py/simple_parking_maneuver/simple_parking_maneuver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[40.947s] [100%] Built target simple_parking_maneuver__rosidl_typesupport_introspection_c__pyext
+[41.002s] Invoked command in '/home/majd/Documents/Robotik/ros2_ws/build/simple_parking_maneuver' returned '0': AMENT_PREFIX_PATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control:/home/majd/Documents/Robotik/ros2_ws/install/turtlesim:/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2:/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber:/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/home/majd/Documents/Robotik/ros2_ws/install/py_pubsub:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble LD_LIBRARY_PATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/majd/Documents/Robotik/ros2_ws/build/simple_parking_maneuver -- -j8 -l8
+[41.374s] Invoking command in '/home/majd/Documents/Robotik/ros2_ws/build/simple_parking_maneuver': AMENT_PREFIX_PATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control:/home/majd/Documents/Robotik/ros2_ws/install/turtlesim:/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2:/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber:/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/home/majd/Documents/Robotik/ros2_ws/install/py_pubsub:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble LD_LIBRARY_PATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/majd/Documents/Robotik/ros2_ws/build/simple_parking_maneuver
+[41.421s] -- Install configuration: ""
+[41.423s] -- Execute custom install script
+[41.424s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/ament_index/resource_index/rosidl_interfaces/simple_parking_maneuver
+[41.468s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/include/simple_parking_maneuver/simple_parking_maneuver/msg/rosidl_generator_c__visibility_control.h
+[41.512s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/include/simple_parking_maneuver/simple_parking_maneuver/srv/detail/parking_maneuver__functions.h
+[41.552s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/include/simple_parking_maneuver/simple_parking_maneuver/srv/detail/parking_maneuver__struct.h
+[41.590s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/include/simple_parking_maneuver/simple_parking_maneuver/srv/detail/parking_maneuver__type_support.h
+[41.631s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/include/simple_parking_maneuver/simple_parking_maneuver/srv/parking_maneuver.h
+[41.673s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/environment/library_path.sh
+[41.707s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/environment/library_path.dsv
+[41.745s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/include/simple_parking_maneuver/simple_parking_maneuver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[41.788s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/include/simple_parking_maneuver/simple_parking_maneuver/srv/detail/parking_maneuver__rosidl_typesupport_fastrtps_c.h
+[41.826s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/include/simple_parking_maneuver/simple_parking_maneuver/srv/detail/parking_maneuver__builder.hpp
+[41.868s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/include/simple_parking_maneuver/simple_parking_maneuver/srv/detail/parking_maneuver__struct.hpp
+[41.915s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/include/simple_parking_maneuver/simple_parking_maneuver/srv/detail/parking_maneuver__traits.hpp
+[41.955s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/include/simple_parking_maneuver/simple_parking_maneuver/srv/parking_maneuver.hpp
+[42.001s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/include/simple_parking_maneuver/simple_parking_maneuver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[42.043s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/include/simple_parking_maneuver/simple_parking_maneuver/srv/detail/parking_maneuver__rosidl_typesupport_fastrtps_cpp.hpp
+[42.087s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/include/simple_parking_maneuver/simple_parking_maneuver/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[42.130s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/include/simple_parking_maneuver/simple_parking_maneuver/srv/detail/parking_maneuver__rosidl_typesupport_introspection_c.h
+[42.172s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/include/simple_parking_maneuver/simple_parking_maneuver/srv/detail/parking_maneuver__rosidl_typesupport_introspection_cpp.hpp
+[42.216s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/environment/pythonpath.sh
+[42.256s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/environment/pythonpath.dsv
+[42.303s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver-0.0.1-py3.10.egg-info/PKG-INFO
+[42.343s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver-0.0.1-py3.10.egg-info/SOURCES.txt
+[42.394s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver-0.0.1-py3.10.egg-info/dependency_links.txt
+[42.437s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver-0.0.1-py3.10.egg-info/top_level.txt
+[42.483s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver/__init__.py
+[42.525s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver/_simple_parking_maneuver_s.ep.rosidl_typesupport_c.c
+[42.567s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver/_simple_parking_maneuver_s.ep.rosidl_typesupport_fastrtps_c.c
+[42.612s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver/_simple_parking_maneuver_s.ep.rosidl_typesupport_introspection_c.c
+[42.662s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver/libsimple_parking_maneuver__rosidl_generator_py.so
+[42.714s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver/simple_parking_maneuver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[42.758s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver/simple_parking_maneuver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[42.802s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver/simple_parking_maneuver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[42.844s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver/srv/__init__.py
+[42.894s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver/srv/_parking_maneuver.py
+[42.934s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver/srv/_parking_maneuver_s.c
+[42.984s] -- Up-to-date symlink: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver/simple_parking_maneuver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[42.986s] -- Up-to-date symlink: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver/simple_parking_maneuver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[42.987s] -- Up-to-date symlink: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver/simple_parking_maneuver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[42.989s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/srv/ParkingManeuver.idl
+[43.029s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/srv/ParkingManeuver.srv
+[43.068s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/srv/ParkingManeuver_Request.msg
+[43.108s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/srv/ParkingManeuver_Response.msg
+[43.151s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/launch/simple_parking_maneuver.launch
+[43.195s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/lib/simple_parking_maneuver/parking_maneuver.py
+[43.241s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/ament_index/resource_index/package_run_dependencies/simple_parking_maneuver
+[43.287s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/ament_index/resource_index/parent_prefix_path/simple_parking_maneuver
+[43.328s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/environment/ament_prefix_path.sh
+[43.369s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/environment/ament_prefix_path.dsv
+[43.415s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/environment/path.sh
+[43.454s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/environment/path.dsv
+[43.500s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/local_setup.bash
+[43.543s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/local_setup.sh
+[43.592s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/local_setup.zsh
+[43.632s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/local_setup.dsv
+[43.683s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/package.dsv
+[43.727s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/ament_index/resource_index/packages/simple_parking_maneuver
+[43.771s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/rosidl_cmake-extras.cmake
+[43.811s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/ament_cmake_export_dependencies-extras.cmake
+[43.854s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/ament_cmake_export_include_directories-extras.cmake
+[43.906s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/ament_cmake_export_libraries-extras.cmake
+[43.947s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/ament_cmake_export_targets-extras.cmake
+[43.997s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[44.041s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[44.094s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/simple_parking_maneuverConfig.cmake
+[44.134s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/simple_parking_maneuverConfig-version.cmake
+[44.196s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/package.xml
+[44.240s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/lib/libsimple_parking_maneuver__rosidl_generator_c.so
+[44.243s] -- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/lib/libsimple_parking_maneuver__rosidl_generator_c.so" to ""
+[44.243s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/lib/libsimple_parking_maneuver__rosidl_typesupport_fastrtps_c.so
+[44.245s] -- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/lib/libsimple_parking_maneuver__rosidl_typesupport_fastrtps_c.so" to ""
+[44.246s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/lib/libsimple_parking_maneuver__rosidl_typesupport_fastrtps_cpp.so
+[44.248s] -- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/lib/libsimple_parking_maneuver__rosidl_typesupport_fastrtps_cpp.so" to ""
+[44.249s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/lib/libsimple_parking_maneuver__rosidl_typesupport_introspection_c.so
+[44.251s] -- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/lib/libsimple_parking_maneuver__rosidl_typesupport_introspection_c.so" to ""
+[44.252s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/lib/libsimple_parking_maneuver__rosidl_typesupport_c.so
+[44.253s] -- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/lib/libsimple_parking_maneuver__rosidl_typesupport_c.so" to ""
+[44.253s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/lib/libsimple_parking_maneuver__rosidl_typesupport_introspection_cpp.so
+[44.258s] -- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/lib/libsimple_parking_maneuver__rosidl_typesupport_introspection_cpp.so" to ""
+[44.258s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/lib/libsimple_parking_maneuver__rosidl_typesupport_cpp.so
+[44.260s] -- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/lib/libsimple_parking_maneuver__rosidl_typesupport_cpp.so" to ""
+[44.506s] Listing '/home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver'...
+[44.506s] Compiling '/home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver/__init__.py'...
+[44.506s] Listing '/home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver/srv'...
+[44.507s] Compiling '/home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver/srv/__init__.py'...
+[44.507s] Compiling '/home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/local/lib/python3.10/dist-packages/simple_parking_maneuver/srv/_parking_maneuver.py'...
+[44.533s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/lib/libsimple_parking_maneuver__rosidl_generator_py.so
+[44.535s] -- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/lib/libsimple_parking_maneuver__rosidl_generator_py.so" to ""
+[44.536s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/export_simple_parking_maneuver__rosidl_generator_cExport.cmake
+[44.537s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/export_simple_parking_maneuver__rosidl_generator_cExport-noconfig.cmake
+[44.537s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/export_simple_parking_maneuver__rosidl_typesupport_fastrtps_cExport.cmake
+[44.538s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/export_simple_parking_maneuver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[44.539s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/export_simple_parking_maneuver__rosidl_generator_cppExport.cmake
+[44.540s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/export_simple_parking_maneuver__rosidl_typesupport_fastrtps_cppExport.cmake
+[44.541s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/export_simple_parking_maneuver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[44.542s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/simple_parking_maneuver__rosidl_typesupport_introspection_cExport.cmake
+[44.543s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/simple_parking_maneuver__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[44.545s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/simple_parking_maneuver__rosidl_typesupport_cExport.cmake
+[44.546s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/simple_parking_maneuver__rosidl_typesupport_cExport-noconfig.cmake
+[44.547s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/simple_parking_maneuver__rosidl_typesupport_introspection_cppExport.cmake
+[44.548s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/simple_parking_maneuver__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[44.549s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/simple_parking_maneuver__rosidl_typesupport_cppExport.cmake
+[44.550s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/simple_parking_maneuver__rosidl_typesupport_cppExport-noconfig.cmake
+[44.551s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/export_simple_parking_maneuver__rosidl_generator_pyExport.cmake
+[44.552s] -- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_parking_maneuver/share/simple_parking_maneuver/cmake/export_simple_parking_maneuver__rosidl_generator_pyExport-noconfig.cmake
+[44.580s] Invoked command in '/home/majd/Documents/Robotik/ros2_ws/build/simple_parking_maneuver' returned '0': AMENT_PREFIX_PATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control:/home/majd/Documents/Robotik/ros2_ws/install/turtlesim:/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2:/home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber:/home/majd/autominy/catkin_ws/install/world_description:/home/majd/autominy/catkin_ws/install/stereo_camera_pose_estimation:/home/majd/autominy/catkin_ws/install/sim_car_controller:/home/majd/autominy/catkin_ws/install/arduino_communication:/home/majd/autominy/catkin_ws/install/serial:/home/majd/autominy/catkin_ws/install/road_marking_localization:/home/majd/autominy/catkin_ws/install/remote_control:/home/majd/autominy/catkin_ws/install/car_description:/home/majd/autominy/catkin_ws/install/odometry:/home/majd/autominy/catkin_ws/install/map_publisher:/home/majd/autominy/catkin_ws/install/low_voltage_shutdown:/home/majd/autominy/catkin_ws/install/lidar_pose_estimation:/home/majd/autominy/catkin_ws/install/hardware_calibration:/home/majd/autominy/catkin_ws/install/emergency_stop:/home/majd/autominy/catkin_ws/install/bno055_usb_stick:/home/majd/autominy/catkin_ws/install/bno055_usb_stick_msgs:/home/majd/autominy/catkin_ws/install/autominy_sim:/home/majd/autominy/catkin_ws/install/autominy_msgs:/home/majd/autominy/catkin_ws/install/autominy:/home/majd/Documents/Robotik/ros2_ws/install/py_pubsub:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble LD_LIBRARY_PATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/majd/Documents/Robotik/ros2_ws/build/simple_parking_maneuver

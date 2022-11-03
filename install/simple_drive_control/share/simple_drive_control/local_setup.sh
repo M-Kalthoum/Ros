@@ -1,0 +1,1 @@
+/home/majd/Documents/Robotik/ros2_ws/build/simple_drive_control/ament_cmake_environment_hooks/local_setup.sh

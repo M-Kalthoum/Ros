@@ -1,0 +1,6 @@
+{
+  "package_name": "simple_parking_maneuver",
+  "non_idl_tuples": [
+    "/home/majd/Documents/Robotik/ros2_ws/src/simple_parking_maneuver:srv/ParkingManeuver.srv"
+  ]
+}

@@ -1,0 +1,1 @@
+/home/majd/Documents/Robotik/ros2_ws/build/simple_drive_control/rosidl_generator_py/simple_drive_control/srv/__init__.py

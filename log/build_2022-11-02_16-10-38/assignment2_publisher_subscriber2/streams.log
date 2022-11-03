@@ -1,0 +1,23 @@
+[2.187s] Invoking command in '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/majd/Documents/Robotik/ros2_ws/install/py_pubsub:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2 -- -j8 -l8
+[2.465s] Invoked command in '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/majd/Documents/Robotik/ros2_ws/install/py_pubsub:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2 -- -j8 -l8
+[2.743s] Invoking command in '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/majd/Documents/Robotik/ros2_ws/install/py_pubsub:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2
+[2.791s] -- Install configuration: ""
+[2.794s] -- Execute custom install script
+[2.798s] -- Up-to-date symlink: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/lib/assignment2_publisher_subscriber2/publisher.py
+[2.799s] -- Up-to-date symlink: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/lib/assignment2_publisher_subscriber2/subscriber.py
+[2.802s] -- Up-to-date symlink: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/ament_index/resource_index/package_run_dependencies/assignment2_publisher_subscriber2
+[2.805s] -- Up-to-date symlink: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/ament_index/resource_index/parent_prefix_path/assignment2_publisher_subscriber2
+[2.808s] -- Up-to-date symlink: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/environment/ament_prefix_path.sh
+[2.811s] -- Up-to-date symlink: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/environment/ament_prefix_path.dsv
+[2.812s] -- Up-to-date symlink: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/environment/path.sh
+[2.812s] -- Up-to-date symlink: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/environment/path.dsv
+[2.814s] -- Up-to-date symlink: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/local_setup.bash
+[2.815s] -- Up-to-date symlink: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/local_setup.sh
+[2.816s] -- Up-to-date symlink: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/local_setup.zsh
+[2.817s] -- Up-to-date symlink: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/local_setup.dsv
+[2.818s] -- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/package.dsv
+[2.885s] -- Up-to-date symlink: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/ament_index/resource_index/packages/assignment2_publisher_subscriber2
+[2.887s] -- Up-to-date symlink: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/cmake/assignment2_publisher_subscriber2Config.cmake
+[2.888s] -- Up-to-date symlink: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/cmake/assignment2_publisher_subscriber2Config-version.cmake
+[2.889s] -- Up-to-date symlink: /home/majd/Documents/Robotik/ros2_ws/install/assignment2_publisher_subscriber2/share/assignment2_publisher_subscriber2/package.xml
+[2.915s] Invoked command in '/home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/majd/Documents/Robotik/ros2_ws/install/py_pubsub:/home/majd/autominy/catkin_ws/install/assignment2_publisher_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/majd/Documents/Robotik/ros2_ws/build/assignment2_publisher_subscriber2

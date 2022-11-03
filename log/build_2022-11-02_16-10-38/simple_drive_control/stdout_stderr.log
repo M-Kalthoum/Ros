@@ -1,0 +1,140 @@
+[  3%] Built target simple_drive_control__cpp
+[  3%] Built target ament_cmake_python_symlink_simple_drive_control
+[35m[1mConsolidate compiler generated dependencies of target simple_drive_control__rosidl_typesupport_introspection_cpp[0m
+[ 12%] Built target simple_drive_control__rosidl_typesupport_introspection_cpp
+running egg_info
+writing simple_drive_control.egg-info/PKG-INFO
+writing dependency_links to simple_drive_control.egg-info/dependency_links.txt
+writing top-level names to simple_drive_control.egg-info/top_level.txt
+reading manifest file 'simple_drive_control.egg-info/SOURCES.txt'
+writing manifest file 'simple_drive_control.egg-info/SOURCES.txt'
+[ 12%] Built target ament_cmake_python_build_simple_drive_control_egg
+[35m[1mConsolidate compiler generated dependencies of target simple_drive_control__rosidl_typesupport_fastrtps_cpp[0m
+[ 22%] Built target simple_drive_control__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target simple_drive_control__rosidl_typesupport_cpp[0m
+[ 32%] Built target simple_drive_control__rosidl_typesupport_cpp
+[35m[1mConsolidate compiler generated dependencies of target simple_drive_control__rosidl_generator_c[0m
+[ 41%] Built target simple_drive_control__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target simple_drive_control__rosidl_typesupport_fastrtps_c[0m
+[ 51%] Built target simple_drive_control__rosidl_typesupport_fastrtps_c
+[35m[1mConsolidate compiler generated dependencies of target simple_drive_control__rosidl_typesupport_c[0m
+[ 61%] Built target simple_drive_control__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target simple_drive_control__rosidl_typesupport_introspection_c[0m
+[ 70%] Built target simple_drive_control__rosidl_typesupport_introspection_c
+[ 70%] Built target simple_drive_control
+[ 74%] Built target simple_drive_control__py
+[35m[1mConsolidate compiler generated dependencies of target simple_drive_control__rosidl_generator_py[0m
+[ 80%] Built target simple_drive_control__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target simple_drive_control__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 87%] Built target simple_drive_control__rosidl_typesupport_fastrtps_c__pyext
+[35m[1mConsolidate compiler generated dependencies of target simple_drive_control__rosidl_typesupport_c__pyext[0m
+[ 93%] Built target simple_drive_control__rosidl_typesupport_c__pyext
+[35m[1mConsolidate compiler generated dependencies of target simple_drive_control__rosidl_typesupport_introspection_c__pyext[0m
+[100%] Built target simple_drive_control__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/ament_index/resource_index/rosidl_interfaces/simple_drive_control
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/include/simple_drive_control/simple_drive_control/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/include/simple_drive_control/simple_drive_control/srv/detail/driving_maneuver__functions.h
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/include/simple_drive_control/simple_drive_control/srv/detail/driving_maneuver__struct.h
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/include/simple_drive_control/simple_drive_control/srv/detail/driving_maneuver__type_support.h
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/include/simple_drive_control/simple_drive_control/srv/driving_maneuver.h
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/environment/library_path.sh
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/environment/library_path.dsv
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/include/simple_drive_control/simple_drive_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/include/simple_drive_control/simple_drive_control/srv/detail/driving_maneuver__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/include/simple_drive_control/simple_drive_control/srv/detail/driving_maneuver__builder.hpp
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/include/simple_drive_control/simple_drive_control/srv/detail/driving_maneuver__struct.hpp
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/include/simple_drive_control/simple_drive_control/srv/detail/driving_maneuver__traits.hpp
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/include/simple_drive_control/simple_drive_control/srv/driving_maneuver.hpp
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/include/simple_drive_control/simple_drive_control/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/include/simple_drive_control/simple_drive_control/srv/detail/driving_maneuver__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/include/simple_drive_control/simple_drive_control/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/include/simple_drive_control/simple_drive_control/srv/detail/driving_maneuver__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/include/simple_drive_control/simple_drive_control/srv/detail/driving_maneuver__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/environment/pythonpath.sh
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/environment/pythonpath.dsv
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control-0.0.1-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control-0.0.1-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control-0.0.1-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control-0.0.1-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control/__init__.py
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control/_simple_drive_control_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control/_simple_drive_control_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control/_simple_drive_control_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control/libsimple_drive_control__rosidl_generator_py.so
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control/simple_drive_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control/simple_drive_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control/simple_drive_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control/srv/__init__.py
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control/srv/_driving_maneuver.py
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control/srv/_driving_maneuver_s.c
+-- Up-to-date symlink: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control/simple_drive_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control/simple_drive_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control/simple_drive_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/srv/DrivingManeuver.idl
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/srv/DrivingManeuver.srv
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/srv/DrivingManeuver_Request.msg
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/srv/DrivingManeuver_Response.msg
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/launch/simple_drive_control.launch
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib/simple_drive_control/drive_control.py
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/ament_index/resource_index/package_run_dependencies/simple_drive_control
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/ament_index/resource_index/parent_prefix_path/simple_drive_control
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/environment/ament_prefix_path.sh
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/environment/ament_prefix_path.dsv
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/environment/path.sh
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/environment/path.dsv
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/local_setup.bash
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/local_setup.sh
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/local_setup.zsh
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/local_setup.dsv
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/package.dsv
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/ament_index/resource_index/packages/simple_drive_control
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/simple_drive_controlConfig.cmake
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/simple_drive_controlConfig-version.cmake
+-- Symlinking: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/package.xml
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib/libsimple_drive_control__rosidl_generator_c.so
+-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib/libsimple_drive_control__rosidl_generator_c.so" to ""
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib/libsimple_drive_control__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib/libsimple_drive_control__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib/libsimple_drive_control__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib/libsimple_drive_control__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib/libsimple_drive_control__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib/libsimple_drive_control__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib/libsimple_drive_control__rosidl_typesupport_c.so
+-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib/libsimple_drive_control__rosidl_typesupport_c.so" to ""
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib/libsimple_drive_control__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib/libsimple_drive_control__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib/libsimple_drive_control__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib/libsimple_drive_control__rosidl_typesupport_cpp.so" to ""
+Listing '/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control'...
+Compiling '/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control/__init__.py'...
+Listing '/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control/srv'...
+Compiling '/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control/srv/__init__.py'...
+Compiling '/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/local/lib/python3.10/dist-packages/simple_drive_control/srv/_driving_maneuver.py'...
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib/libsimple_drive_control__rosidl_generator_py.so
+-- Set runtime path of "/home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/lib/libsimple_drive_control__rosidl_generator_py.so" to ""
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/export_simple_drive_control__rosidl_generator_cExport.cmake
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/export_simple_drive_control__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/export_simple_drive_control__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/export_simple_drive_control__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/export_simple_drive_control__rosidl_generator_cppExport.cmake
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/export_simple_drive_control__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/export_simple_drive_control__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/simple_drive_control__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/simple_drive_control__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/simple_drive_control__rosidl_typesupport_cExport.cmake
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/simple_drive_control__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/simple_drive_control__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/simple_drive_control__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/simple_drive_control__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/simple_drive_control__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/export_simple_drive_control__rosidl_generator_pyExport.cmake
+-- Installing: /home/majd/Documents/Robotik/ros2_ws/install/simple_drive_control/share/simple_drive_control/cmake/export_simple_drive_control__rosidl_generator_pyExport-noconfig.cmake

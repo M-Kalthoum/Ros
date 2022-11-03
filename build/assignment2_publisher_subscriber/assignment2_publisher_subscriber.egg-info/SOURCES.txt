@@ -11,7 +11,11 @@ setup.py
 assignment2_publisher_subscriber/__init__.py
 assignment2_publisher_subscriber/publisher.py
 assignment2_publisher_subscriber/subscriber.py
+assignment2_publisher_subscriber.egg-info/PKG-INFO
+assignment2_publisher_subscriber.egg-info/SOURCES.txt
+assignment2_publisher_subscriber.egg-info/dependency_links.txt
+assignment2_publisher_subscriber.egg-info/entry_points.txt
+assignment2_publisher_subscriber.egg-info/requires.txt
+assignment2_publisher_subscriber.egg-info/top_level.txt
+assignment2_publisher_subscriber.egg-info/zip-safe
 resource/assignment2_publisher_subscriber
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
