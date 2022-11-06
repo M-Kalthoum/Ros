@@ -21,14 +21,21 @@ class SimpleParkingManeuver(Node):
         # you can call the driving maneuver service like this
         # direction can be backward/forward, steering can be left/right/straight
         if request.direction == "left":
+            self.driving_maneuver_client.call(DrivingManeuver.Request(direction="backward", steering="right", distance=0.3))
             self.driving_maneuver_client.call(DrivingManeuver.Request(direction="backward", steering="left", distance=0.3))
-            # self.driving_maneuver_client.call(DrivingManeuver.Request(direction="backward", steering="right", distance=0.3))
-            # self.driving_maneuver_client.call(DrivingManeuver.Request(direction="backward", steering="left", distance=0.3))
-            # self.driving_maneuver_client.call(DrivingManeuver.Request(direction="backward", steering="right", distance=0.3))
-            # TODO
+            self.driving_maneuver_client.call(DrivingManeuver.Request(direction="backward", steering="right", distance=0.3))
+            self.driving_maneuver_client.call(DrivingManeuver.Request(direction="backward", steering="left", distance=0.3))
+
+
         elif request.direction == "right":
-            self.driving_maneuver_client.call(DrivingManeuver.Request(direction="backward", steering="left", distance=0.3))
-            # TODO
+            self.driving_maneuver_client.call(DrivingManeuver.Request(direction="forward", steering="left", distance=0.1))
+            self.driving_maneuver_client.call(DrivingManeuver.Request(direction="forward", steering="straight", distance=0.1))
+            self.driving_maneuver_client.call(DrivingManeuver.Request(direction="backward", steering="left", distance=0.1))
+            self.driving_maneuver_client.call(DrivingManeuver.Request(direction="backward", steering="straight", distance=0.1))
+            self.driving_maneuver_client.call(DrivingManeuver.Request(direction="forward", steering="straight", distance=0.1))
+
+
+
         else:
             response.info = "ERROR: Request can only be 'left' or 'right'"
             return response
